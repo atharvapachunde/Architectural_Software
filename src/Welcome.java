@@ -73,10 +73,8 @@ public class Welcome extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
- 
     public static void main(String args[]) {
-       
-
+      
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Welcome().setVisible(true);
