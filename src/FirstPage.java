@@ -23,20 +23,21 @@ public class FirstPage extends javax.swing.JFrame {
         java.awt.GridBagConstraints gridBagConstraints;
 
         jPanel1 = new javax.swing.JPanel();
-        plotnol = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
+        surveyno_l = new javax.swing.JLabel();
+        survey = new javax.swing.JLabel();
+        village_l = new javax.swing.JLabel();
+        village1 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
+        taluka1 = new javax.swing.JLabel();
+        arealabel = new javax.swing.JLabel();
         larea = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
+        gatnol = new javax.swing.JLabel();
+        gatno1 = new javax.swing.JLabel();
+        ctsl = new javax.swing.JLabel();
+        cts1 = new javax.swing.JLabel();
+        plotnol = new javax.swing.JLabel();
+        plotno1 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -66,7 +67,6 @@ public class FirstPage extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jLabel23 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -80,7 +80,7 @@ public class FirstPage extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
-        plotnol.setText("Survey No");
+        surveyno_l.setText("Survey No");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -88,10 +88,10 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 13;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
-        jPanel1.add(plotnol, gridBagConstraints);
-        plotnol.getAccessibleContext().setAccessibleName("plotnol");
+        jPanel1.add(surveyno_l, gridBagConstraints);
+        surveyno_l.getAccessibleContext().setAccessibleName("plotnol");
 
-        jLabel10.setText("jLabel10");
+        survey.setText("jLabel10");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -99,28 +99,28 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 60;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 18, 0, 0);
-        jPanel1.add(jLabel10, gridBagConstraints);
-        jLabel10.getAccessibleContext().setAccessibleName("plotno");
+        jPanel1.add(survey, gridBagConstraints);
+        survey.getAccessibleContext().setAccessibleName("plotno");
 
-        jLabel11.setText("Village");
+        village_l.setText("Village");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.ipadx = 15;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(1, 0, 0, 0);
-        jPanel1.add(jLabel11, gridBagConstraints);
-        jLabel11.getAccessibleContext().setAccessibleName("villagel");
+        jPanel1.add(village_l, gridBagConstraints);
+        village_l.getAccessibleContext().setAccessibleName("villagel");
 
-        jLabel12.setText("jLabel12");
+        village1.setText("jLabel12");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.ipadx = 54;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(1, 18, 0, 0);
-        jPanel1.add(jLabel12, gridBagConstraints);
-        jLabel12.getAccessibleContext().setAccessibleName("village");
+        jPanel1.add(village1, gridBagConstraints);
+        village1.getAccessibleContext().setAccessibleName("village");
 
         jLabel13.setText("Taluka");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -134,7 +134,7 @@ public class FirstPage extends javax.swing.JFrame {
         jPanel1.add(jLabel13, gridBagConstraints);
         jLabel13.getAccessibleContext().setAccessibleName("talukal");
 
-        jLabel14.setText("jLabel14");
+        taluka1.setText("jLabel14");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 2;
@@ -142,50 +142,50 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 54;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(1, 18, 0, 0);
-        jPanel1.add(jLabel14, gridBagConstraints);
-        jLabel14.getAccessibleContext().setAccessibleName("taluka");
+        jPanel1.add(taluka1, gridBagConstraints);
+        taluka1.getAccessibleContext().setAccessibleName("taluka");
 
-        jLabel15.setText("Plot Area (in sq. m.)");
+        arealabel.setText("Plot Area (in sq. m.)");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.gridheight = 5;
+        gridBagConstraints.gridheight = 8;
         gridBagConstraints.ipadx = 8;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(1, 3, 0, 0);
-        jPanel1.add(jLabel15, gridBagConstraints);
+        jPanel1.add(arealabel, gridBagConstraints);
 
         larea.setText("jLabel16");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.gridheight = 5;
+        gridBagConstraints.gridheight = 8;
         gridBagConstraints.ipadx = 60;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(1, 18, 0, 0);
         jPanel1.add(larea, gridBagConstraints);
         larea.getAccessibleContext().setAccessibleName("area");
 
-        jLabel9.setText("Gat No");
+        gatnol.setText("Gat No");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
-        jPanel1.add(jLabel9, gridBagConstraints);
+        jPanel1.add(gatnol, gridBagConstraints);
 
-        jLabel16.setText("jLabel16");
+        gatno1.setText("jLabel16");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 8;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.ipadx = 32;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 42, 0, 0);
-        jPanel1.add(jLabel16, gridBagConstraints);
+        jPanel1.add(gatno1, gridBagConstraints);
 
-        jLabel21.setText("CTS No");
+        ctsl.setText("CTS No");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 1;
@@ -193,9 +193,9 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
-        jPanel1.add(jLabel21, gridBagConstraints);
+        jPanel1.add(ctsl, gridBagConstraints);
 
-        jLabel24.setText("jLabel24");
+        cts1.setText("jLabel24");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 8;
         gridBagConstraints.gridy = 1;
@@ -204,9 +204,9 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 38;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 42, 0, 0);
-        jPanel1.add(jLabel24, gridBagConstraints);
+        jPanel1.add(cts1, gridBagConstraints);
 
-        jLabel25.setText("Plot No");
+        plotnol.setText("Plot No");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 4;
@@ -214,9 +214,9 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.gridheight = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
-        jPanel1.add(jLabel25, gridBagConstraints);
+        jPanel1.add(plotnol, gridBagConstraints);
 
-        jLabel26.setText("jLabel26");
+        plotno1.setText("jLabel26");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 8;
         gridBagConstraints.gridy = 4;
@@ -225,7 +225,17 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 37;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 42, 0, 0);
-        jPanel1.add(jLabel26, gridBagConstraints);
+        jPanel1.add(plotno1, gridBagConstraints);
+
+        jLabel1.setFont(new java.awt.Font("Corbel", 1, 24)); // NOI18N
+        jLabel1.setText("Pandit Joshi & Associates");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 11;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 7;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(14, 31, 0, 6);
+        jPanel1.add(jLabel1, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -576,16 +586,6 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(12, 0, 21, 0);
         getContentPane().add(jButton3, gridBagConstraints);
 
-        jLabel1.setFont(new java.awt.Font("Corbel", 1, 24)); // NOI18N
-        jLabel1.setText("Pandit Joshi & Associates");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 10;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(17, 6, 0, 6);
-        getContentPane().add(jLabel1, gridBagConstraints);
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -595,25 +595,35 @@ public class FirstPage extends javax.swing.JFrame {
         areainsqm = area * 10000;
         area712.setText(String.valueOf(areainsqm));
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+    public void headingPanelActivation()
+    {
+        //Heading Panel CODE
+        
+        //Visibility false 
+        survey.setVisible(false);
+        surveyno_l.setVisible(false);
+        gatnol.setVisible(false);
+        gatno1.setVisible(false);
+        ctsl.setVisible(false);
+        cts1.setVisible(false);
+        plotnol.setVisible(false);
+        plotno1.setVisible(false);
+        
+        //Setting text empty
         larea.setText("");
-        jLabel14.setText("");
-        jLabel12.setText("");
-        jLabel10.setText("");
-        jLabel16.setText("");
-        jLabel24.setText("");
+        taluka1.setText("");
+        village1.setText("");
+        survey.setText("");
+        gatno1.setText("");
+        cts1.setText("");
         area712.setText("");
         jLabel23.setText("");
-        jLabel10.setVisible(false);
-        plotnol.setVisible(false);
-        jLabel9.setVisible(false);
-        jLabel16.setVisible(false);
-        jLabel21.setVisible(false);
-        jLabel24.setVisible(false);
-        jLabel25.setVisible(false);
-        jLabel26.setVisible(false);
-
+        
+        
+    }
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+     //Calling Heading Panel Formation Function
+     headingPanelActivation();
     }//GEN-LAST:event_formWindowActivated
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -650,7 +660,7 @@ public class FirstPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
-        jLabel14.setText((String)jComboBox2.getSelectedItem());
+        taluka1.setText((String)jComboBox2.getSelectedItem());
         taluka=(String)jComboBox2.getSelectedItem();
         
     }//GEN-LAST:event_jComboBox2ActionPerformed
@@ -669,9 +679,9 @@ public class FirstPage extends javax.swing.JFrame {
 
     private void jTextField4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusLost
         if (!jTextField4.getText().trim().isEmpty()) {
-            jLabel25.setVisible(true);
-            jLabel26.setVisible(true);
-            jLabel26.setText(jTextField4.getText());
+            plotnol.setVisible(true);
+            plotno1.setVisible(true);
+            plotno1.setText(jTextField4.getText());
             plotno=jTextField4.getText().trim();
         }
     }//GEN-LAST:event_jTextField4FocusLost
@@ -682,9 +692,9 @@ public class FirstPage extends javax.swing.JFrame {
 
     private void jTextField3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField3FocusLost
         if (!jTextField3.getText().trim().isEmpty()) {
-            jLabel21.setVisible(true);
-            jLabel24.setVisible(true);
-            jLabel24.setText(jTextField3.getText());
+            ctsl.setVisible(true);
+            cts1.setVisible(true);
+            cts1.setText(jTextField3.getText());
             ctsno=jTextField3.getText().trim();
         }
     }//GEN-LAST:event_jTextField3FocusLost
@@ -695,23 +705,23 @@ public class FirstPage extends javax.swing.JFrame {
 
     private void jTextField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField2FocusLost
         if (!jTextField2.getText().trim().isEmpty()) {
-            jLabel16.setText(jTextField2.getText());
-            jLabel9.setVisible(true);
-            jLabel16.setVisible(true);
+            gatno1.setText(jTextField2.getText());
+            gatnol.setVisible(true);
+            gatno1.setVisible(true);
             gatno=jTextField2.getText().trim();
         }
 
     }//GEN-LAST:event_jTextField2FocusLost
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        jLabel10.setText(jTextField1.getText());
+        survey.setText(jTextField1.getText());
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusLost
         if (!jTextField1.getText().trim().isEmpty()) {
-            jLabel10.setVisible(true);
-            plotnol.setVisible(true);
-            jLabel10.setText(jTextField1.getText());
+            survey.setVisible(true);
+            surveyno_l.setVisible(true);
+            survey.setText(jTextField1.getText());
             surveyno=jTextField1.getText().trim();
         }
     }//GEN-LAST:event_jTextField1FocusLost
@@ -721,7 +731,8 @@ public class FirstPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField5ActionPerformed
 
     private void jTextField5FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField5FocusLost
-        jLabel12.setText(jTextField5.getText().trim());
+        village1.setText(jTextField5.getText().trim());
+        village=jTextField5.getText().trim();
     }//GEN-LAST:event_jTextField5FocusLost
 
     public static void main(String args[]) {
@@ -753,36 +764,30 @@ public class FirstPage extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel area712;
     private javax.swing.JTextField areainha;
+    private javax.swing.JLabel arealabel;
+    private javax.swing.JLabel cts1;
+    private javax.swing.JLabel ctsl;
+    private javax.swing.JLabel gatno1;
+    private javax.swing.JLabel gatnol;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -795,6 +800,12 @@ public class FirstPage extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
     private javax.swing.JLabel larea;
+    private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;
+    private javax.swing.JLabel survey;
+    private javax.swing.JLabel surveyno_l;
+    private javax.swing.JLabel taluka1;
+    private javax.swing.JLabel village1;
+    private javax.swing.JLabel village_l;
     // End of variables declaration//GEN-END:variables
 }
