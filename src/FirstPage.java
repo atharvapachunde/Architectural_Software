@@ -398,6 +398,17 @@ public class FirstPage extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 18, 0, 29);
         jPanel2.add(jComboBox2, gridBagConstraints);
+
+        jTextField5.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                jTextField5FocusLost(evt);
+            }
+        });
+        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField5ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 9;
@@ -628,6 +639,7 @@ public class FirstPage extends javax.swing.JFrame {
         }
         larea.setText(String.valueOf(lowest));
         
+        
     }//GEN-LAST:event_jButton2ActionPerformed
     
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -703,6 +715,14 @@ public class FirstPage extends javax.swing.JFrame {
             surveyno=jTextField1.getText().trim();
         }
     }//GEN-LAST:event_jTextField1FocusLost
+
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+        
+    }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void jTextField5FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField5FocusLost
+        jLabel12.setText(jTextField5.getText().trim());
+    }//GEN-LAST:event_jTextField5FocusLost
 
     public static void main(String args[]) {
         try {
