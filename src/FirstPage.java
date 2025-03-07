@@ -1,6 +1,6 @@
 
 import javax.swing.*;
-import java.awt.*;
+//import java.awt.*;
 
 public class FirstPage extends javax.swing.JFrame {
     
@@ -590,7 +590,6 @@ public class FirstPage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
         double area = Double.parseDouble(areainha.getText());
         areainsqm = area * 10000;
         area712.setText(String.valueOf(areainsqm));
@@ -617,9 +616,7 @@ public class FirstPage extends javax.swing.JFrame {
         gatno1.setText("");
         cts1.setText("");
         area712.setText("");
-        jLabel23.setText("");
-        
-        
+        jLabel23.setText("");   
     }
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
      //Calling Heading Panel Formation Function

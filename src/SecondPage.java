@@ -324,11 +324,6 @@ public class SecondPage extends javax.swing.JFrame {
         getContentPane().add(jButton2, gridBagConstraints);
 
         jButton3.setText("<- PREVIOUS");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
@@ -641,13 +636,6 @@ public class SecondPage extends javax.swing.JFrame {
         jRadioButton7.setSelected(true);
         jRadioButton9.setSelected(true);
     }//GEN-LAST:event_jRadioButton11ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        FirstPage fp=new FirstPage();
-        fp.setVisible(true);
-        fp.pack();
-        this.dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {

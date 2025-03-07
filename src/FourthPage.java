@@ -1,4 +1,3 @@
-
 public class FourthPage extends javax.swing.JFrame {
 //Heading Panel Variables
 
