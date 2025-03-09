@@ -1,4 +1,4 @@
-public class EighthPage extends javax.swing.JFrame {
+public class Page12 extends javax.swing.JFrame {
 //Heading Panel Variables
 
     String plotno = "";
@@ -8,14 +8,13 @@ public class EighthPage extends javax.swing.JFrame {
     String village = "";
     String taluka = "";
     double lowest = 0.0;
-    public EighthPage() {
+   
+    public Page12() {
         initComponents();
     }
-
-   public EighthPage(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
+      public Page12(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
         initComponents();
-
-        //Panel Code Initialization
+         //Panel Code Initialization
         this.plotno = plotno;
         this.gatno = gatno;
         this.surveyno = surveyno;
@@ -25,6 +24,7 @@ public class EighthPage extends javax.swing.JFrame {
         this.lowest = lowest;
     }
 
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -50,11 +50,6 @@ public class EighthPage extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        addWindowListener(new java.awt.event.WindowAdapter() {
-            public void windowActivated(java.awt.event.WindowEvent evt) {
-                formWindowActivated(evt);
-            }
-        });
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
@@ -232,7 +227,7 @@ public class EighthPage extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(188, 188, 188)
+                        .addGap(186, 186, 186)
                         .addComponent(jButton4)
                         .addGap(133, 133, 133)
                         .addComponent(jButton3)))
@@ -242,77 +237,61 @@ public class EighthPage extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 271, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addGap(15, 15, 15))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-public void headingPanelActivation() {
-        //setting visibility
-        ctsl.setVisible(false);
-        cts1.setVisible(false);
-        gatnol.setVisible(false);
-        gatno1.setVisible(false);
-        surveyno_l.setVisible(false);
-        survey.setVisible(false);
-        plotno1.setVisible(false);
-        plotnol.setVisible(false);
-
-        if (!surveyno.isEmpty()) {
-            surveyno_l.setVisible(true);
-            survey.setVisible(true);
-            survey.setText(surveyno);
-        }
-        if (!ctsno.isEmpty()) {
-            ctsl.setVisible(true);
-            cts1.setVisible(true);
-            cts1.setText(ctsno);
-        }
-        if (!gatno.isEmpty()) {
-            gatno1.setVisible(true);
-            gatnol.setVisible(true);
-            gatno1.setText(gatno);
-        }
-        if (!plotno.isEmpty()) {
-            plotno1.setVisible(true);
-            plotnol.setVisible(true);
-            plotno1.setText(plotno);
-        }
-
-        //Setting village, lowest area, taluka
-        larea.setText(String.valueOf(lowest));
-        taluka1.setText(taluka);
-        village1.setText(village);
-
-    }
-    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
-        headingPanelActivation();
-    }//GEN-LAST:event_formWindowActivated
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        SeventhPage sp = new SeventhPage(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
-        sp.setVisible(true);
-        sp.pack();
+        Page11 p11=new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        p11.setVisible(true);
+        p11.pack();
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Page9 p9=new Page9(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
-        p9.setVisible(true);
-        p9.pack();
+        Page11 p11=new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        p11.setVisible(true);
+        p11.pack();
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
-
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String args[]) {
-      
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Page12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Page12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Page12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Page12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new EighthPage().setVisible(true);
+                new Page12().setVisible(true);
             }
         });
     }

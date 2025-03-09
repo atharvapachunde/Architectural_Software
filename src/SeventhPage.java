@@ -1,4 +1,5 @@
 import javax.swing.BorderFactory;
+import javax.swing.JScrollBar;
 
 public class SeventhPage extends javax.swing.JFrame {
 //Heading Panel Variables
@@ -415,7 +416,7 @@ public class SeventhPage extends javax.swing.JFrame {
                 .addComponent(jLabel15))
         );
 
-        jLabel14.setText("<html>Every plot meant for a recreational open space shall have an independent means of access.<br>In group housing schemes, if recreational open space is surrounded by buildings for the occupants' use, independent access may not be required.</html>");
+        jLabel14.setText("<html>Every plot meant for a recreational open space shall have an independent means of access.<br>In group housing schemes, if recreational open space is surrounded by buildings for the occupants' use,<br> independent access may not be required.</html>");
 
         jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
@@ -506,8 +507,8 @@ public class SeventhPage extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 683, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -569,6 +570,13 @@ public void headingPanelActivation() {
         jTextArea3.setEditable(false);
         jTextArea3.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         jTextArea3.setLineWrap(true);
+        
+        JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
+        verticalScrollBar.setValue(0); 
+        
+        JScrollBar verticalScrollBar1 = jScrollPane4.getVerticalScrollBar();
+        verticalScrollBar1.setValue(0); 
+        
     }//GEN-LAST:event_formWindowActivated
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
