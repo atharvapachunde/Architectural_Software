@@ -73,6 +73,11 @@ public class SeventhPage extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -255,7 +260,7 @@ public class SeventhPage extends javax.swing.JFrame {
         jTextArea1.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Any land/plot admeasuring 0.4 ha. or more, 10% of area shall be enmarked as Recreational Open Space, mostly in one place.\nIncase land/plot is admeasuring more than 0.8 ha., the recreational open space can be provided in different location. \nOwner can provide ore than 10% of recreational open space.\n\nFor the lands which are sub-divided after 11th January, 1967 without taking prior permission from the Authority and having\nplot area below 0.4 ha., the applicant may opt for any of the options from :- \na) providing 10% open space subject to a minimum of  200 sq.m., or  \nb) availing the reduced FSI of 75% of the basic FSI as otherwise permissible on such land.  \nc) avail full basic FSI and other permissible FSI / TDR by paying 10% value of the land \nunder proposal as per Annual Statement of Ratesfor that year, without considering \nguidelines therein. \n\nNot more than 50% of Recreational Space to provided on terrace of podium. Owner can provide 100% recreational open \nspace on the terrace only if 1.5 m. strip provided along the boundary of terrace.\n\nIf a surplus or retainable land under the Urban Land (C. & R.) Act, 1976, is 0.4 hectares or more, 10% of it must be reserved as \nrecreational open space.\n\nOpen Space to be provided for any use/zone \n\nNo Recreational Open space to be provided for land/plot of area upto 0.4 ha.\nRecreational open space is not required for:\na) Subdivision of plots from an already sanctioned layout.\nb) Development of non-residential reservations in Development Plans.\nc) Non-residential, non-industrial, and non-educational uses in the Agricultural zone.\n");
+        jTextArea1.setText("Any land/plot admeasuring 0.4 ha. or more, 10% of area shall be enmarked as Recreational Open Space, mostly in \none place.\nIncase land/plot is admeasuring more than 0.8 ha., the recreational open space can be provided in different location. \nOwner can provide ore than 10% of recreational open space.\n\nFor the lands which are sub-divided after 11th January, 1967 without taking prior permission from the Authority and \nhaving plot area below 0.4 ha., the applicant may opt for any of the options from :- \na) providing 10% open space subject to a minimum of  200 sq.m., or  \nb) availing the reduced FSI of 75% of the basic FSI as otherwise permissible on such land.  \nc) avail full basic FSI and other permissible FSI / TDR by paying 10% value of the land \nunder proposal as per Annual Statement of Ratesfor that year, without considering \nguidelines therein. \n\nNot more than 50% of Recreational Space to provided on terrace of podium. Owner can provide 100% recreational open \nspace on the terrace only if 1.5 m. strip provided along the boundary of terrace.\n\nIf a surplus or retainable land under the Urban Land (C. & R.) Act, 1976, is 0.4 hectares or more, 10% of it must be reserved as \nrecreational open space.\n\nOpen Space to be provided for any use/zone \n\nNo Recreational Open space to be provided for land/plot of area upto 0.4 ha.\nRecreational open space is not required for:\na) Subdivision of plots from an already sanctioned layout.\nb) Development of non-residential reservations in Development Plans.\nc) Non-residential, non-industrial, and non-educational uses in the Agricultural zone.\n");
         jScrollPane2.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -337,7 +342,7 @@ public class SeventhPage extends javax.swing.JFrame {
 
         jLabel9.setText("<html>Minimum dimnension of Recreational Space shall not be less than  10.0 m.<br>If average width of Recreational Open space is less than 20.0m, Length should not exceed 2.5 times avg width.</html>");
 
-        jLabel10.setText("3.4.5");
+        jLabel10.setText("<html>Recreational open space may be designated in the green belt, maintaining a 15.0 m setback from the river and 9.0 m from the nallah, if it meets size regulations.<br>Only permitted uses and structures under Regulation No. 4.11 are allowed.</html>");
 
         jLabel11.setText("Enter average width (m) :");
 
@@ -354,6 +359,9 @@ public class SeventhPage extends javax.swing.JFrame {
 
         jLabel12.setText("jLabel12");
 
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel15.setText("Structures permitted in Open Spaces:");
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
@@ -367,20 +375,22 @@ public class SeventhPage extends javax.swing.JFrame {
                             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))))
+                            .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGap(115, 115, 115)
-                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(115, 115, 115)
+                                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(165, 165, 165)
+                                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel15)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(165, 165, 165)
-                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(258, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -392,8 +402,8 @@ public class SeventhPage extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel8)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel10)
-                .addGap(18, 18, 18)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -401,7 +411,37 @@ public class SeventhPage extends javax.swing.JFrame {
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel12)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel15))
+        );
+
+        jLabel14.setText("<html>Every plot meant for a recreational open space shall have an independent means of access.<br>In group housing schemes, if recreational open space is surrounded by buildings for the occupants' use, independent access may not be required.</html>");
+
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        jTextArea3.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea3.setColumns(20);
+        jTextArea3.setRows(5);
+        jTextArea3.setText("Structures permitted in Open Spaces:\n1.Max 2 storeyed structure with max 15% builtup area of open space. Built up area on ground floor shall not exceed 10%. Incase of slilt, additional floor may be added.\n2.The structures used for the purpose of education, sports and recreational activity are permitted. \n3.Utilities such as water tank (underground or elevated), electric substation, generator set, pump houses, garbage treatment, public health out post/ centre may be permitted only with the consent of the society of residents.\n4.No detached toilet block shall be permitted.\n5.A swimming pool may also be permitted in such a recreational open space. \n6.The proposal for the construction of such structure should come as a proposal from the owner/s, owners‘ society / societies or federation of owners‘ societies and shall be meant for the beneficial use of the owners/ members of such society / societies / federation of societies. \n7.The remaining area of the recreational open space shall be kept open to sky and properly accessible to all members as a place of recreation, garden or a playground. \n8.The owners‘ society / societies, the federation of the owners‘ societies shall submit to the Authority, a registered undertaking agreeing to the conditions in (6) & (7) above while obtaining permission for the above said construction. ");
+        jScrollPane4.setViewportView(jTextArea3);
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 668, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14))
+                .addGap(0, 23, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel14)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -421,7 +461,9 @@ public class SeventhPage extends javax.swing.JFrame {
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(1004, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -434,7 +476,9 @@ public class SeventhPage extends javax.swing.JFrame {
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(579, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(484, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
@@ -462,8 +506,8 @@ public class SeventhPage extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 683, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -512,9 +556,19 @@ public void headingPanelActivation() {
     }
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         headingPanelActivation();
+        
+        jLabel4.setText("");
+        jLabel5.setText("");
+        jLabel12.setText("");
         jTextArea1.setEditable(false);
         jTextArea1.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         jTextArea1.setLineWrap(true);
+        jTextArea2.setEditable(false);
+        jTextArea2.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        jTextArea2.setLineWrap(true);
+        jTextArea3.setEditable(false);
+        jTextArea3.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        jTextArea3.setLineWrap(true);
     }//GEN-LAST:event_formWindowActivated
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -615,6 +669,8 @@ public void headingPanelActivation() {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -628,11 +684,14 @@ public void headingPanelActivation() {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JLabel larea;

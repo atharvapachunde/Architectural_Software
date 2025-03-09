@@ -50,8 +50,8 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="550" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="683" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -265,7 +265,10 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace pref="1004" max="32767" attributes="0"/>
@@ -282,7 +285,9 @@
                       <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="579" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="484" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -320,7 +325,7 @@
                         </Property>
                         <Property name="columns" type="int" value="20"/>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Any land/plot admeasuring 0.4 ha. or more, 10% of area shall be enmarked as Recreational Open Space, mostly in one place.&#xa;Incase land/plot is admeasuring more than 0.8 ha., the recreational open space can be provided in different location. &#xa;Owner can provide ore than 10% of recreational open space.&#xa;&#xa;For the lands which are sub-divided after 11th January, 1967 without taking prior permission from the Authority and having&#xa;plot area below 0.4 ha., the applicant may opt for any of the options from :- &#xa;a) providing 10% open space subject to a minimum of  200 sq.m., or  &#xa;b) availing the reduced FSI of 75% of the basic FSI as otherwise permissible on such land.  &#xa;c) avail full basic FSI and other permissible FSI / TDR by paying 10% value of the land &#xa;under proposal as per Annual Statement of Ratesfor that year, without considering &#xa;guidelines therein. &#xa;&#xa;Not more than 50% of Recreational Space to provided on terrace of podium. Owner can provide 100% recreational open &#xa;space on the terrace only if 1.5 m. strip provided along the boundary of terrace.&#xa;&#xa;If a surplus or retainable land under the Urban Land (C. &amp; R.) Act, 1976, is 0.4 hectares or more, 10% of it must be reserved as &#xa;recreational open space.&#xa;&#xa;Open Space to be provided for any use/zone &#xa;&#xa;No Recreational Open space to be provided for land/plot of area upto 0.4 ha.&#xa;Recreational open space is not required for:&#xa;a) Subdivision of plots from an already sanctioned layout.&#xa;b) Development of non-residential reservations in Development Plans.&#xa;c) Non-residential, non-industrial, and non-educational uses in the Agricultural zone.&#xa;"/>
+                        <Property name="text" type="java.lang.String" value="Any land/plot admeasuring 0.4 ha. or more, 10% of area shall be enmarked as Recreational Open Space, mostly in &#xa;one place.&#xa;Incase land/plot is admeasuring more than 0.8 ha., the recreational open space can be provided in different location. &#xa;Owner can provide ore than 10% of recreational open space.&#xa;&#xa;For the lands which are sub-divided after 11th January, 1967 without taking prior permission from the Authority and &#xa;having plot area below 0.4 ha., the applicant may opt for any of the options from :- &#xa;a) providing 10% open space subject to a minimum of  200 sq.m., or  &#xa;b) availing the reduced FSI of 75% of the basic FSI as otherwise permissible on such land.  &#xa;c) avail full basic FSI and other permissible FSI / TDR by paying 10% value of the land &#xa;under proposal as per Annual Statement of Ratesfor that year, without considering &#xa;guidelines therein. &#xa;&#xa;Not more than 50% of Recreational Space to provided on terrace of podium. Owner can provide 100% recreational open &#xa;space on the terrace only if 1.5 m. strip provided along the boundary of terrace.&#xa;&#xa;If a surplus or retainable land under the Urban Land (C. &amp; R.) Act, 1976, is 0.4 hectares or more, 10% of it must be reserved as &#xa;recreational open space.&#xa;&#xa;Open Space to be provided for any use/zone &#xa;&#xa;No Recreational Open space to be provided for land/plot of area upto 0.4 ha.&#xa;Recreational open space is not required for:&#xa;a) Subdivision of plots from an already sanctioned layout.&#xa;b) Development of non-residential reservations in Development Plans.&#xa;c) Non-residential, non-industrial, and non-educational uses in the Agricultural zone.&#xa;"/>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -435,26 +440,30 @@
                                       <Component id="jLabel6" max="32767" attributes="0"/>
                                       <Component id="jLabel8" alignment="0" max="32767" attributes="0"/>
                                       <Component id="jLabel9" alignment="0" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel10" min="-2" pref="43" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
+                                      <Component id="jLabel10" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
-                                  <Component id="jLabel11" min="-2" pref="158" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" min="-2" pref="106" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                          <Component id="jLabel11" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jTextField2" min="-2" pref="106" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                                          <Component id="jLabel12" min="-2" pref="244" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
-                          <Component id="jLabel12" min="-2" pref="244" max="-2" attributes="0"/>
-                          <EmptySpace pref="258" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -468,8 +477,8 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -478,7 +487,8 @@
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="11" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -512,7 +522,9 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="3.4.5"/>
+                    <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;&lt;html&gt;Recreational open space may be designated in the green belt, maintaining a 15.0 m setback from the river and 9.0 m from the nallah, if it meets size regulations.&lt;br&gt;Only permitted uses and structures under Regulation No. 4.11 are allowed.&lt;/html&gt;&quot;" type="code"/>
+                    </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel11">
@@ -531,6 +543,71 @@
                     <Property name="text" type="java.lang.String" value="jLabel12"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Structures permitted in Open Spaces:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane4" min="-2" pref="668" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;&lt;html&gt;Every plot meant for a recreational open space shall have an independent means of access.&lt;br&gt;In group housing schemes, if recreational open space is surrounded by buildings for the occupants&apos; use, independent access may not be required.&lt;/html&gt;&quot;" type="code"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                  <Properties>
+                    <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="Structures permitted in Open Spaces:&#xa;1.Max 2 storeyed structure with max 15% builtup area of open space. Built up area on ground floor shall not exceed 10%. Incase of slilt, additional floor may be added.&#xa;2.The structures used for the purpose of education, sports and recreational activity are permitted. &#xa;3.Utilities such as water tank (underground or elevated), electric substation, generator set, pump houses, garbage treatment, public health out post/ centre may be permitted only with the consent of the society of residents.&#xa;4.No detached toilet block shall be permitted.&#xa;5.A swimming pool may also be permitted in such a recreational open space. &#xa;6.The proposal for the construction of such structure should come as a proposal from the owner/s, owners&#x2018; society / societies or federation of owners&#x2018; societies and shall be meant for the beneficial use of the owners/ members of such society / societies / federation of societies. &#xa;7.The remaining area of the recreational open space shall be kept open to sky and properly accessible to all members as a place of recreation, garden or a playground. &#xa;8.The owners&#x2018; society / societies, the federation of the owners&#x2018; societies shall submit to the Authority, a registered undertaking agreeing to the conditions in (6) &amp; (7) above while obtaining permission for the above said construction. "/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>
