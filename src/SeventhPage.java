@@ -1,3 +1,4 @@
+
 import javax.swing.BorderFactory;
 import javax.swing.JScrollBar;
 
@@ -557,7 +558,7 @@ public void headingPanelActivation() {
     }
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         headingPanelActivation();
-        
+
         jLabel4.setText("");
         jLabel5.setText("");
         jLabel12.setText("");
@@ -570,13 +571,13 @@ public void headingPanelActivation() {
         jTextArea3.setEditable(false);
         jTextArea3.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         jTextArea3.setLineWrap(true);
-        
+
         JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
-        verticalScrollBar.setValue(0); 
-        
+        verticalScrollBar.setValue(0);
+
         JScrollBar verticalScrollBar1 = jScrollPane4.getVerticalScrollBar();
-        verticalScrollBar1.setValue(0); 
-        
+        verticalScrollBar1.setValue(0);
+
     }//GEN-LAST:event_formWindowActivated
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -594,54 +595,45 @@ public void headingPanelActivation() {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        
+
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusLost
-        double educationarea=Double.parseDouble(jTextField1.getText().trim());
-        double playground=0.0;
-        double percentage=0.0;
-        double remaining=0.0;
-        if(educationarea<=1.0)
-        {
-            percentage=40;
-            playground=(educationarea*40)/100;
-            jLabel4.setText("Percentage of Playground to be left: "+percentage+ "%");
-            jLabel5.setText("Area to be left for playground: "+playground+" ha.");
-        }
-        else if(educationarea<=2 && educationarea>1)
-        {
-            playground=0.4;
+        double educationarea = Double.parseDouble(jTextField1.getText().trim());
+        double playground = 0.0;
+        double percentage = 0.0;
+        double remaining = 0.0;
+        if (educationarea <= 1.0) {
+            percentage = 40;
+            playground = (educationarea * 40) / 100;
+            jLabel4.setText("Percentage of Playground to be left: " + percentage + "%");
+            jLabel5.setText("Area to be left for playground: " + playground + " ha.");
+        } else if (educationarea <= 2 && educationarea > 1) {
+            playground = 0.4;
             jLabel4.setText("Area as per 1 + 35% of remaining area");
-            remaining=educationarea-1;
-            playground=playground+((remaining*35)/100);
-            jLabel5.setText("Area to be left for playground: "+playground+" ha.");   
-        }
-        else if(educationarea<=3 && educationarea>2)
-        {
-            playground=0.75;
+            remaining = educationarea - 1;
+            playground = playground + ((remaining * 35) / 100);
+            jLabel5.setText("Area to be left for playground: " + playground + " ha.");
+        } else if (educationarea <= 3 && educationarea > 2) {
+            playground = 0.75;
             jLabel4.setText("Area as per 2 + 30% of remaining area");
-            remaining=educationarea-2;
-            playground=playground+((remaining*30)/100);
-            jLabel5.setText("Area to be left for playground: "+playground+" ha.");
-        }
-        else if(educationarea<=4 && educationarea>3)
-        {
-            playground=1.05;
+            remaining = educationarea - 2;
+            playground = playground + ((remaining * 30) / 100);
+            jLabel5.setText("Area to be left for playground: " + playground + " ha.");
+        } else if (educationarea <= 4 && educationarea > 3) {
+            playground = 1.05;
             jLabel4.setText("Area as per 3 + 25% of remaining area");
-            remaining=educationarea-3;
-            playground=playground+((remaining*25)/100);
-            jLabel5.setText("Area to be left for playground: "+playground+" ha.");
-        }
-        else if(educationarea>4)
-        {
-            playground=1.3;
+            remaining = educationarea - 3;
+            playground = playground + ((remaining * 25) / 100);
+            jLabel5.setText("Area to be left for playground: " + playground + " ha.");
+        } else if (educationarea > 4) {
+            playground = 1.3;
             jLabel4.setText("Area as per 4 + 20% of remaining area");
-            remaining=educationarea-4;
-            playground=playground+((remaining*20)/100);
-            jLabel5.setText("Area to be left for playground: "+playground+" ha.");
+            remaining = educationarea - 4;
+            playground = playground + ((remaining * 20) / 100);
+            jLabel5.setText("Area to be left for playground: " + playground + " ha.");
         }
-        
+
     }//GEN-LAST:event_jTextField1FocusLost
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
@@ -650,9 +642,9 @@ public void headingPanelActivation() {
 
     private void jTextField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField2FocusLost
         Float rslen = Float.parseFloat(jTextField2.getText());
-        float two = (float)2.5;
+        float two = (float) 2.5;
         rslen = rslen * two;
-        jLabel12.setText("Length should not be more than "+ rslen + " m.");
+        jLabel12.setText("Length should not be more than " + rslen + " m.");
     }//GEN-LAST:event_jTextField2FocusLost
 
     public static void main(String args[]) {
