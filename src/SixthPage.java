@@ -469,13 +469,14 @@ public void headingPanelActivation() {
         } else {
             jLabel5.setText("Not an acute angle");
         }
-        //
         jLabel5.setText(angle + "");
+        //
+        
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jTextField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField2FocusLost
-//        float cornerr = Float.parseFloat(jTextField2.getText());
-//        jLabel5.setText(cornerr + "");
+        float cornerr = Float.parseFloat(jTextField2.getText());   
+            jLabel5.setText(cornerr + "");
 // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2FocusLost
 
