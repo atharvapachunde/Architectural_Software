@@ -1,3 +1,4 @@
+
 import java.awt.Component;
 import javax.swing.*;
 //import javax.swing.table.TableCellRenderer;
@@ -13,13 +14,14 @@ public class Page9 extends javax.swing.JFrame {
     String village = "";
     String taluka = "";
     double lowest = 0.0;
-    public Page9()
-    {
+
+    public Page9() {
         initComponents();
     }
+
     public Page9(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
         initComponents();
-         //Panel Code Initialization
+        //Panel Code Initialization
         this.plotno = plotno;
         this.gatno = gatno;
         this.surveyno = surveyno;
@@ -27,33 +29,30 @@ public class Page9 extends javax.swing.JFrame {
         this.village = village;
         this.taluka = taluka;
         this.lowest = lowest;
-        
+
         DefaultTableModel elec = (DefaultTableModel) jTable1.getModel();
-            elec.addRow(new Object[]{"Plot above 2000 sq.m.","One Single transformer sub-station of the size of 5.0 m. x 5.0 m. and height of not more than 5.0 m."});
-            elec.addRow(new Object[]{"Layout of plot 2.0ha or more","A suitable site for an electric sub-station as required by the Power Supply Company"});
-            
+        elec.addRow(new Object[]{"Plot above 2000 sq.m.", "One Single transformer sub-station of the size of 5.0 m. x 5.0 m. and height of not more than 5.0 m."});
+        elec.addRow(new Object[]{"Layout of plot 2.0ha or more", "A suitable site for an electric sub-station as required by the Power Supply Company"});
+
         jTable1.getColumnModel().getColumn(1).setPreferredWidth(10);
 //            jTable1.getColumnModel().getColumn(2).setPreferredWidth(50);
 
-        DefaultTableModel m1=(DefaultTableModel)jTable2.getModel();
+        DefaultTableModel m1 = (DefaultTableModel) jTable2.getModel();
         m1.setRowCount(0);
-        m1.addRow(new Object[]{"Residential & Commercial","30","As per Table 6D","Row/Semi-detached/Detached as per approved layout or marginal distances"});
-        m1.addRow(new Object[]{"EWS Housing/High Density Housing/Slum Upgradation","20 or as per scheme","Not Specified","Row/Semi-detached/Detached"});
-        m1.addRow(new Object[]{"Vehicle Fuel & Charging Stations","As required by authority","As required by authority","Detached"});
-       m1.addRow(new Object[]{"Industrial (excluding service industries)","300","10","Detached"});
-       m1.addRow(new Object[]{"Other Uses","As per regulations","As per regulations","As per regulations"});
-       
-            
+        m1.addRow(new Object[]{"Residential & Commercial", "30", "As per Table 6D", "Row/Semi-detached/Detached as per approved layout or marginal distances"});
+        m1.addRow(new Object[]{"EWS Housing/High Density Housing/Slum Upgradation", "20 or as per scheme", "Not Specified", "Row/Semi-detached/Detached"});
+        m1.addRow(new Object[]{"Vehicle Fuel & Charging Stations", "As required by authority", "As required by authority", "Detached"});
+        m1.addRow(new Object[]{"Industrial (excluding service industries)", "300", "10", "Detached"});
+        m1.addRow(new Object[]{"Other Uses", "As per regulations", "As per regulations", "As per regulations"});
+
     }
 
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
         java.awt.GridBagConstraints gridBagConstraints;
 
         jLabel2 = new javax.swing.JLabel();
-        eighthPage1 = new EighthPage();
         jPanel1 = new javax.swing.JPanel();
         surveyno_l = new javax.swing.JLabel();
         survey = new javax.swing.JLabel();
@@ -414,7 +413,7 @@ public class Page9 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       Page10 p10=new Page10(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        Page10 p10 = new Page10(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
         p10.setVisible(true);
         p10.pack();
         this.dispose();
@@ -425,7 +424,7 @@ public class Page9 extends javax.swing.JFrame {
     }//GEN-LAST:event_formFocusLost
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
-         headingPanelActivation();
+        headingPanelActivation();
     }//GEN-LAST:event_formWindowActivated
     public void headingPanelActivation() {
         //setting visibility
@@ -465,9 +464,9 @@ public class Page9 extends javax.swing.JFrame {
         village1.setText(village);
 
     }
-    
+
     public static void main(String args[]) {
-      
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Page9().setVisible(true);
@@ -479,7 +478,6 @@ public class Page9 extends javax.swing.JFrame {
     private javax.swing.JLabel arealabel;
     private javax.swing.JLabel cts1;
     private javax.swing.JLabel ctsl;
-    private EighthPage eighthPage1;
     private javax.swing.JLabel gatno1;
     private javax.swing.JLabel gatnol;
     private javax.swing.JButton jButton3;

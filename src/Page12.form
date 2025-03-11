@@ -36,18 +36,8 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
-                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -57,6 +47,13 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -64,13 +61,13 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="1786" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -273,32 +270,40 @@
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                  </Group>
                                   <Component id="jScrollPane2" alignment="0" min="-2" pref="684" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="244" max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" pref="212" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jScrollPane5" min="-2" pref="914" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jPanel6" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="245" max="-2" attributes="0"/>
                               <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="jScrollPane8" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
-                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" min="-2" pref="685" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="120" max="32767" attributes="0"/>
@@ -315,22 +320,20 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="747" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -372,14 +375,23 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel7" alignment="1" max="32767" attributes="0"/>
                                   </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
@@ -388,12 +400,8 @@
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane4" pref="670" max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane3" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace pref="190" max="32767" attributes="0"/>
@@ -404,21 +412,29 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -499,78 +515,49 @@
                     </Component>
                   </SubComponents>
                 </Container>
-              </SubComponents>
-            </Container>
-            <Component class="javax.swing.JLabel" name="jLabel6">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="LOW DENSITY RESIDENTIAL ZONE"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value=" In this zone, all uses permissible in Residential Zone shall be permitted subject to FSI restrictions mentioned in these regulations. "/>
-              </Properties>
-            </Component>
-            <Container class="javax.swing.JPanel" name="jPanel4">
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="246" max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" pref="212" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane5" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jScrollPane5" min="-2" pref="80" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-              <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel9">
+                <Component class="javax.swing.JComboBox" name="jComboBox1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="11">
+                        <StringItem index="0" value="Residential Zone"/>
+                        <StringItem index="1" value="Low Density Residential Zone"/>
+                        <StringItem index="2" value="Future Urbanizable Zone"/>
+                        <StringItem index="3" value="Commercial Zone"/>
+                        <StringItem index="4" value="Industrial Zone"/>
+                        <StringItem index="5" value="Public/Semi Public Zone"/>
+                        <StringItem index="6" value="Agricultural Zone"/>
+                        <StringItem index="7" value="Green Belt Zone/River Protection Belt"/>
+                        <StringItem index="8" value="Afforestation Zone"/>
+                        <StringItem index="9" value="Green Zone-2 "/>
+                        <StringItem index="10" value="Defense Zone"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel16">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Select you Zone: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="14" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="FUTURE URBANIZABLE ZONE"/>
+                    <Property name="text" type="java.lang.String" value="LOW DENSITY RESIDENTIAL ZONE"/>
                   </Properties>
                 </Component>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane5">
-                  <AuxValues>
-                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                  </AuxValues>
-
-                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                  <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="jTextArea4">
-                      <Properties>
-                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f2" green="f2" red="f2" type="rgb"/>
-                        </Property>
-                        <Property name="columns" type="int" value="20"/>
-                        <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="1. The owner bears the cost of extending offsite infrastructure (road, water, sewage, electricity) and deposits the amount &#xa;     with the Authority or constructs it per approved specifications.&#xa;2. If the land is on a Development Plan road wider than 18m, the owner must build an 18m road; otherwise, a 12m&#xa;    asphalted road is required.&#xa;&#xa;"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=" In this zone, all uses permissible in Residential Zone shall be permitted subject to FSI restrictions mentioned in these regulations. "/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="jPanel5">
@@ -578,38 +565,30 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="277" max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane6" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel10">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="14" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="COMMERCIAL ZONE"/>
-                  </Properties>
-                </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane6">
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -629,6 +608,14 @@
                     </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="COMMERCIAL ZONE"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="jPanel6">
@@ -726,8 +713,8 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="282" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="269" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
@@ -742,11 +729,10 @@
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           <Component id="jScrollPane9" min="-2" pref="388" max="-2" attributes="0"/>
-                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -761,6 +747,9 @@
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                  <Properties>
+                    <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+                  </Properties>
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                   </AuxValues>
@@ -774,11 +763,38 @@
                         </Property>
                         <Property name="columns" type="int" value="20"/>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Permissible uses in the Agricultural Zone:&#xa;1, Agricultural uses, including stables, piggeries, poultry farms, and accessory buildings.&#xa;2. Golf courses, race tracks, shooting ranges (with safety measures), trekking routes, and nature trails.&#xa;3. Gardens, forestry, nurseries, public/private parks, playfields, and summer camps.&#xa;4. Public/semi-public utility establishments (electric substations, gas distribution, sewage/water treatment, etc.) with staff &#xa;   quarters.&#xa;5. LPG Godowns (conditions: minimum plot size per licensing authority, 20% FSI, ground floor only, NOC required).&#xa;6. Fuel Filling Stations (LPG/CNG/Ethanol/EV Charging) (conditions: minimum 12m road width, 20% FSI, NOC from Explosives &#xa;   Authority, compliance with IRC/MORTH road junction guidelines, ancillary facilities like sales offices/restaurants allowed).&#xa;7. Pottery manufacturing.&#xa;8. Fertilizer storage and drying.&#xa;9. Farmhouses (conditions: minimum plot 0.4 Ha, 0.04 FSI, max 400 sq.m. built-up area, ground +1 structure, max height 9m).&#xa;10. Swimming pools, sports facilities, canteens, and tennis courts.&#xa;11. Amusement Park (min. 1.0 Ha) with rides, swimming pools, ethnic villages, shops, hotels, etc. (0.70 FSI; 0.20 free, remainder&#xa;with premium). Must provide infrastructure, waste disposal, parking, and plant 250 trees/Ha. Ride areas not counted in FSI.&#xa;12. IT/ITES Parks/Units (0.20 FSI, as per Regulation No.7.8).&#xa;13. Government/Semi-Government Buildings &amp; Resettlement Projects (FSI as per Residential Zone).&#xa;14. Biotechnology Units/B.T. Parks (as per Regulation No.7.9).&#xa;15. Educational, Research, Medical, and Spiritual Centers (FSI 1.00; 0.20 free, remainder with premium). Must plant 250&#xa; trees/Ha. Higher FSI as per Chapter-7, capped at 100%. Educational use may have 15% commercial space (Regulation &#xa; No.4.10(vi)).&#xa;16. Integrated Highway/Wayside Amenities (min. 10,000 sq.m.) on NH/SH or 18m-wide roads, including motels, restaurants, &#xa;     fuel pumps, hypermarkets, banks, trauma centers, etc. (FSI 0.2 free, up to 0.3 with premium). No subdivision allowed; fuel &#xa;     pumps separately earmarked. Individual uses allowed on 12m-wide roads (min. 4000 sq.m.).&#xa;17. Ancillary Service Industries for agro products (e.g., cold storages, godowns, grading, banking) with FSI 0.2 free, up to 1.0 &#xa;     with premium.&#xa;18. Industries (FSI 0.2 free, up to 1.0 with premium). 23m buffer from residential zones unless for non-polluting industries, &#xa;      IT/ITES. Industrial layouts allowed with conditions.&#xa;19. Solid Waste Management &amp; Power from Waste.&#xa;20. Non-Conventional Power Generation (solar panels not counted in FSI).&#xa;21. Brick, Tile Manufacturing.&#xa;22. Fish Farming.&#xa;23. Religious Buildings (subject to authority approval).&#xa;24. Slaughterhouses &amp; Animal Disposal Facilities (special permission required).&#xa;25. Cemeteries &amp; Crematoria.&#xa;26. Scrap Market (FSI 0.2 free, up to 1.0 with premium).&#xa;27. Mangal Karyalayas/Lawns (min. 0.4 Ha for Karyalaya, 0.8 Ha for lawns, FSI 0.2 &amp; 0.1 respectively, 40% area for parking). &#xa;     Abuts 9m road (urban) or 12m road (rural).&#xa;28. Bus Terminus.&#xa;29. Communication Routes (roads, railways, airstrips, ropeways, ports, electric lines).&#xa;30. Town Planning Schemes (Min. 20 Ha) under Maharashtra Regional &amp; Town Planning Act, 1966, with full cost borne by &#xa; owners. After sanction, all residential zone uses permitted with respective FSI. Alternatively, owners can develop under &#xa; similar principles with a 12m approach road and 40% land for public use.&#xa;--&gt;10% land for parks/playgrounds (no FSI compensation).&#xa;--&gt;15% land for social infrastructure/sale (FSI compensation in-situ).&#xa;--&gt;15% road area (FSI compensation in-situ); excess road area under owner/developer.&#xa;--&gt;Phase-wise residential zone permissions after infrastructure completion.&#xa;31. Fireworks/Explosives Manufacturing &amp; Storage (Min. 2 km from Gaothan boundary, NOC from Chief Controller of Explosives).&#xa;32. Cinema/TV Film Production &amp; Studios (Min. 2 Ha plot, FSI 0.2 free, up to 1.0 with premium).&#xa;33. Tourism &amp; Hospitality (FSI 0.2 free, up to 1.0 with premium):&#xa;--&gt;Tourist homes, resorts, hotels, motels, health &amp; wellness spas, golf courses, art villages,&#xa;      exhibition centers, adventure/eco/agriculture/medical tourism projects.&#xa;--&gt; Boutique wineries, guest houses, B&amp;B schemes (MTDC/DoT approved).&#xa;--&gt; Includes reception, kitchen, parking, guard cabins, landscaping, and one 15m observation tower &#xa;      per resort (10 sq.m platform)&#xa;"/>
+                        <Property name="text" type="java.lang.String" value="Permissible uses in the Agricultural Zone:&#xa;1, Agricultural uses, including stables, piggeries, poultry farms, and accessory buildings.&#xa;2. Golf courses, race tracks, shooting ranges (with safety measures), trekking routes, and nature trails.&#xa;3. Gardens, forestry, nurseries, public/private parks, playfields, and summer camps.&#xa;4. Public/semi-public utility establishments (electric substations, gas distribution, sewage/water treatment, etc.) with staff &#xa;   quarters.&#xa;5. LPG Godowns (conditions: minimum plot size per licensing authority, 20% FSI, ground floor only, NOC required).&#xa;6. Fuel Filling Stations (LPG/CNG/Ethanol/EV Charging) (conditions: minimum 12m road width, 20% FSI, NOC from Explosives &#xa;   Authority, compliance with IRC/MORTH road junction guidelines, ancillary facilities like sales offices/restaurants allowed).&#xa;7. Pottery manufacturing.&#xa;8. Fertilizer storage and drying.&#xa;9. Farmhouses (conditions: minimum plot 0.4 Ha, 0.04 FSI, max 400 sq.m. built-up area, ground +1 structure, max height 9m).&#xa;10. Swimming pools, sports facilities, canteens, and tennis courts.&#xa;11. Amusement Park (min. 1.0 Ha) with rides, swimming pools, ethnic villages, shops, hotels, etc. (0.70 FSI; 0.20 free, remainder&#xa;with premium). Must provide infrastructure, waste disposal, parking, and plant 250 trees/Ha. Ride areas not counted in FSI.&#xa;12. IT/ITES Parks/Units (0.20 FSI, as per Regulation No.7.8).&#xa;13. Government/Semi-Government Buildings &amp; Resettlement Projects (FSI as per Residential Zone).&#xa;14. Biotechnology Units/B.T. Parks (as per Regulation No.7.9).&#xa;15. Educational, Research, Medical, and Spiritual Centers (FSI 1.00; 0.20 free, remainder with premium). Must plant 250&#xa; trees/Ha. Higher FSI as per Chapter-7, capped at 100%. Educational use may have 15% commercial space (Regulation &#xa; No.4.10(vi)).&#xa;16. Integrated Highway/Wayside Amenities (min. 10,000 sq.m.) on NH/SH or 18m-wide roads, including motels, restaurants, &#xa;     fuel pumps, hypermarkets, banks, trauma centers, etc. (FSI 0.2 free, up to 0.3 with premium). No subdivision allowed; fuel &#xa;     pumps separately earmarked. Individual uses allowed on 12m-wide roads (min. 4000 sq.m.).&#xa;17. Ancillary Service Industries for agro products (e.g., cold storages, godowns, grading, banking) with FSI 0.2 free, up to 1.0 &#xa;     with premium.&#xa;18. Industries (FSI 0.2 free, up to 1.0 with premium). 23m buffer from residential zones unless for non-polluting industries, &#xa;      IT/ITES. Industrial layouts allowed with conditions.&#xa;19. Solid Waste Management &amp; Power from Waste.&#xa;20. Non-Conventional Power Generation (solar panels not counted in FSI).&#xa;21. Brick, Tile Manufacturing.&#xa;22. Fish Farming.&#xa;23. Religious Buildings (subject to authority approval).&#xa;24. Slaughterhouses &amp; Animal Disposal Facilities (special permission required).&#xa;25. Cemeteries &amp; Crematoria.&#xa;26. Scrap Market (FSI 0.2 free, up to 1.0 with premium).&#xa;27. Mangal Karyalayas/Lawns (min. 0.4 Ha for Karyalaya, 0.8 Ha for lawns, FSI 0.2 &amp; 0.1 respectively, 40% area for parking). &#xa;     Abuts 9m road (urban) or 12m road (rural).&#xa;28. Bus Terminus.&#xa;29. Communication Routes (roads, railways, airstrips, ropeways, ports, electric lines).&#xa;30. Town Planning Schemes (Min. 20 Ha) under Maharashtra Regional &amp; Town Planning Act, 1966, with full cost borne by &#xa; owners. After sanction, all residential zone uses permitted with respective FSI. Alternatively, owners can develop under &#xa; similar principles with a 12m approach road and 40% land for public use.&#xa;--&gt;10% land for parks/playgrounds (no FSI compensation).&#xa;--&gt;15% land for social infrastructure/sale (FSI compensation in-situ).&#xa;--&gt;15% road area (FSI compensation in-situ); excess road area under owner/developer.&#xa;--&gt;Phase-wise residential zone permissions after infrastructure completion.&#xa;31. Fireworks/Explosives Manufacturing &amp; Storage (Min. 2 km from Gaothan boundary, NOC from Chief Controller of Explosives).&#xa;32. Cinema/TV Film Production &amp; Studios (Min. 2 Ha plot, FSI 0.2 free, up to 1.0 with premium).&#xa;33. Tourism &amp; Hospitality (FSI 0.2 free, up to 1.0 with premium):&#xa;--&gt;Tourist homes, resorts, hotels, motels, health &amp; wellness spas, golf courses, art villages,&#xa;      exhibition centers, adventure/eco/agriculture/medical tourism projects.&#xa;--&gt; Boutique wineries, guest houses, B&amp;B schemes (MTDC/DoT approved).&#xa;--&gt; Includes reception, kitchen, parking, guard cabins, landscaping, and one 15m observation tower &#xa;      per resort (10 sq.m platform)&#xa;34. Tourist Resort Complexes may be permitted with following conditions :- &#xa;      A) General Conditions:&#xa;      --&gt;Minimum site area: 1.00 Ha. (0.4 Ha. for local residents).&#xa;      B) Conditions for Development:&#xa;           a) FSI Regulations:&#xa;             --&gt; 0.25 of gross plot area without premium.&#xa;             --&gt; Up to 1.00 FSI with premium at 20% of land rate in the Annual Statement of Rates, disregarding guidelines.&#xa;           b) Permitted Uses:&#xa;             --&gt; Resort, holiday camp, recreational activities, amusement park.&#xa;           c) Heritage Site Restrictions:&#xa;             --&gt; Development near forts, archaeological, or historical monuments must follow archaeological department rules.&#xa;           d) Lakeside Development:&#xa;              --&gt; Governed by specific regulations for natural lakes. &#xa;                     Given Below is the dstance from High Flood Line (HFL) / Full Storage Level (FSL)  and Development to be allowed&#xa;&#x9;Up to 100 m. --&gt; Not permissible. &#xa;&#x9;above 100 m. to 300 m.  --&gt;Ground floor structure with maximum height of 5.0 m. &#xa;&#x9;above 300 m. to 500 m.  --&gt; G + 1 storey structure with maximum height of 9.0 m. &#xa;&#x9;above 500 m. --&gt;Within permissible FSI and subject to other regulations.  &#xa;            e) No subdivision of land shall be allowed. &#xa;            f) The land should have approach of minimum 9.0 m. wide road. &#xa;            g) The land having slope steeper than 1:5, shall not be eligible for development.&#xa;       C) Infrastructural Facilities - The owner/developer must provide all required infrastructure at their own cost, &#xa;            ensuring proper sewage and solid waste disposal. Untreated effluents are prohibited from entering any watercourse.&#xa;35. All required infrastructural facilities must be provided by the developer at their own cost, including proper sewage and&#xa;      solid waste disposal. No untreated effluent shall be discharged into any watercourse.&#xa;36. In areas of Local Bodies and SPA where a Development Plan is sanctioned, Pradhan Mantri Awas Yojana (PMAY) is &#xa;       permitted as per Reg. 14.4.1.&#xa;37. Individual houses up to 150 sq.m. are allowed for entire holdings as per the single 7/12 extract on the enforcement &#xa;      date of these regulations.&#xa;38. Mining and quarrying are permitted as per Reg. 15.1.&#xa;39. In Regional Plan areas (excluding Local Bodies and SPA with sanctioned Development Plans), &#xa;      PMAY is permitted as per Reg. 14.4.2.&#xa;40. Development of tourism and hospitality services under Community Nature Conservancy near wildlife sanctuaries and &#xa;      national parks is allowed as per Reg. 14.9.&#xa;41. Integrated Township Projects are permitted as per Reg. 14.1.1.&#xa;42. Three-star &amp; above category hotels along National/State Highways, MDR, and roads &#x2265;18m width:&#xa;       FSI 0.2 free, up to 1.0 with premium (20% of land rate in ASR).&#xa;43. Bulk storage and sale of Kerosene is allowed subject to NOC from Chief Controller of Explosives, Government of India.&#xa;44. Development of EWS/LIG housing as per Reg. 7.7.&#xa;45. Development adjacent to Gaothan is allowed as per Reg. 5.1.1."/>
                       </Properties>
                     </Component>
                   </SubComponents>
                 </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="FUTURE URBANIZABLE ZONE"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="1. The owner bears the cost of extending offsite infrastructure (road, water, sewage, electricity) and deposits the amount &#xa;     with the Authority or constructs it per approved specifications.&#xa;2. If the land is on a Development Plan road wider than 18m, the owner must build an 18m road; otherwise, a 12m&#xa;    asphalted road is required.&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
           </SubComponents>
