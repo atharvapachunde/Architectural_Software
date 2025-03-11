@@ -100,6 +100,18 @@ public class Page12 extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextArea4 = new javax.swing.JTextArea();
+        jLabel15 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        jLabel18 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
+        jLabel17 = new javax.swing.JLabel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
+        jLabel19 = new javax.swing.JLabel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTextArea12 = new javax.swing.JTextArea();
 
         jLabel8.setText("jLabel8");
 
@@ -511,6 +523,42 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea4.setText("1. The owner bears the cost of extending offsite infrastructure (road, water, sewage, electricity) and deposits the amount \n     with the Authority or constructs it per approved specifications.\n2. If the land is on a Development Plan road wider than 18m, the owner must build an 18m road; otherwise, a 12m\n    asphalted road is required.\n\n");
         jScrollPane5.setViewportView(jTextArea4);
 
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel15.setText("Green Belt Zone / River Protection Belt");
+
+        jTextArea9.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea9.setColumns(20);
+        jTextArea9.setRows(5);
+        jTextArea9.setText("Permissible uses in the Green Belt Zone / River Protection Belt :\ni  Agriculture\nii Tree plantation, gardens, public parks, landscaping, recreational open spaces, forestry, and nurseries.\niii River front development by Authority or any institution authorised on behalf of Authority.\niv Development of pedestrian pathways, Jogging tracks, Cycle tracks, Boat clubs etc. \nv  Swimming pools, clubhouses, and other recreational facilities, provided:\n    ->A 15.0 m belt is left along the riverbank.\n    ->A 9.0 m setback is maintained from Nallahs.\n    ->Compliance with other regulatory provisions.\nvi Public Toilets permitted as per the requirement.\nvii Recreational Open Space (ROS) in Layouts/Subdivisions\n     ->If a layout/subdivision proposal includes recreational open space adjacent to a green belt:\n     ->A 15.0 m marginal distance must be maintained from rivers.\n     ->A 9.0 m marginal distance must be maintained from Nallahs.\n     ->Additional conditions as per Regulation No. 3.1.3 must be followed.\n   a.  Recreational Open Space extent of permissible uses shall follow the specifications in this regulation\n   b . Land Handover for Public Purpose\n     ->If the Authority requires land in the green belt for public use:\n     ->The owner must transfer possession for public development and maintenance.\n     ->The land will remain open and accessible for recreational activities.\n   c Marginal Distance Requirements for Buildings Near Rivers/Nallahs\n      ->The side/rear marginal distance must be the maximum of the following:\n          ->Distance required as per building height.\n          ->4.5 m from the boundary line of the green belt and the developable zone.\n          ->Mandatory 15.0 m setback from rivers or 9.0 m setback from Nallahs.\n\n\n\n");
+        jScrollPane10.setViewportView(jTextArea9);
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel18.setText("Afforestation Zone");
+
+        jTextArea10.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea10.setColumns(20);
+        jTextArea10.setRows(5);
+        jTextArea10.setText("Permissible uses in Afforestation Zone :\ni All Uses Permissible in Hill Top and Hill Slope Zone\nii Forest Houses (for forest tourists, servants, technicians, or owners, and for storing fertilizers)\n    ->Built-up area must not exceed 150 sq.m.\n     ->Minimum forest plot area required: 0.4 hectares\n     ->Structures allowed: Ground + 1 floor\n     ->Maximum height: 7.0 m\n     ->Materials used should blend with the surroundings.\n     ->The owner must plant 250 trees per hectare and maintain them properly.\n     ->Forest house layouts are permitted for areas greater than 0.4 hectares.\niii Development Permissible Adjacent to Gaothan\n    ->As specified in Regulation 5.1.1.\n    ->Allowed up to a maximum of 200 meters from the Gaothan limit.\niv Restrictions on Hill Slopes\n    ->The above uses shall not be permitted on hill slopes steeper than 1:5.\n    ->Such areas shall not be considered for FSI calculations.");
+        jScrollPane11.setViewportView(jTextArea10);
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel17.setText("Green Zone-2");
+
+        jTextArea11.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea11.setColumns(20);
+        jTextArea11.setRows(5);
+        jTextArea11.setText("Permissible uses in the Green Zone -2 :\ni All uses permissible in Hill Top - Hill Slope Zone.  \nii Gaothan expansion \niii Primary and Nursery Schools including student hostels.  ");
+        jScrollPane12.setViewportView(jTextArea11);
+
+        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel19.setText("Defense Zone");
+
+        jTextArea12.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea12.setColumns(20);
+        jTextArea12.setRows(5);
+        jTextArea12.setText("Permissible uses in the Defence Zone :\nDevelopment by the Ministry of Defence\n   ->Only developments required by the Ministry of Defence or its Authorities shall be permissible.\n   ->Such developments must be on lands owned and possessed by the Ministry of Defence or its Authorities.\nRestrictive Zone \n    ->No development is allowed if it violates notifications issued under the Works of Defence Act - 1903.\n    ->This applies regardless of whether the area is marked on the Development Plan / Regional Plan.\n    ->Development may be permitted only with a No Objection Certificate (NOC) from the concerned Defence Authority.\nUtilization of Restrictive Zone\n    ->The area under the restrictive zone may be treated as marginal distance during construction on unaffected contiguous land.\n    ->The FSI and receiving potential of the restricted land may be utilized on the remaining contiguous unaffected land of the same owner.");
+        jScrollPane13.setViewportView(jTextArea12);
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -535,20 +583,43 @@ public class Page12 extends javax.swing.JFrame {
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 914, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(47, 47, 47))))
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGap(12, 12, 12)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(245, 245, 245)
                         .addComponent(jLabel12))
                     .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(198, 198, 198)
+                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(262, 262, 262)
+                        .addComponent(jLabel18))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 677, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(275, 275, 275)
+                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(281, 281, 281)
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jScrollPane12))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jScrollPane10))
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGap(12, 12, 12)
+                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(12, 12, 12)
-                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(120, Short.MAX_VALUE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -573,7 +644,23 @@ public class Page12 extends javax.swing.JFrame {
                 .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(747, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel15)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel17)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
@@ -583,14 +670,12 @@ public class Page12 extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(201, 201, 201)
@@ -604,9 +689,8 @@ public class Page12 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1786, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -698,21 +782,23 @@ public class Page12 extends javax.swing.JFrame {
 
         JScrollBar verticalScrollBar7 = jScrollPane9.getVerticalScrollBar();
         verticalScrollBar7.setValue(0);
+        
+        JScrollBar verticalScrollBar8 = jScrollPane10.getVerticalScrollBar();
+        verticalScrollBar8.setValue(0);
+        
+        JScrollBar verticalScrollBar9 = jScrollPane11.getVerticalScrollBar();
+        verticalScrollBar9.setValue(0);
+        
+        JScrollBar verticalScrollBar10 = jScrollPane12.getVerticalScrollBar();
+        verticalScrollBar10.setValue(0);
+        
+        JScrollBar verticalScrollBar11 = jScrollPane13.getVerticalScrollBar();
+        verticalScrollBar11.setValue(0);
+        
+        
+        
         jLabel4.setText("");
     }//GEN-LAST:event_formWindowActivated
-
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        jLabel4.setText("Residential Zone -R1");
-        jScrollPane3.setVisible(true);
-        jScrollPane4.setVisible(false);
-
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
-
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        jLabel4.setText("Residential Zone -R2");
-        jScrollPane4.setVisible(true);
-        jScrollPane3.setVisible(false);
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         String zone = (String) jComboBox1.getSelectedItem();
@@ -742,6 +828,18 @@ public class Page12 extends javax.swing.JFrame {
             verticalScrollBar.setValue(0);
         }
     }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+        jLabel4.setText("Residential Zone -R2");
+        jScrollPane4.setVisible(true);
+        jScrollPane3.setVisible(false);
+    }//GEN-LAST:event_jRadioButton2ActionPerformed
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        jLabel4.setText("Residential Zone -R1");
+        jScrollPane3.setVisible(true);
+        jScrollPane4.setVisible(false);
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -790,7 +888,11 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -808,6 +910,10 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -817,6 +923,9 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
@@ -824,6 +933,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea6;
     private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;
