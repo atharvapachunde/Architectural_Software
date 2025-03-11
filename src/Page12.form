@@ -34,22 +34,27 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jPanel4" alignment="1" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
-              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -58,8 +63,10 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="244" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -377,7 +384,7 @@
                       <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane13" min="-2" pref="125" max="-2" attributes="0"/>
-                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -863,7 +870,7 @@
                     </Property>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="Permissible uses in the Green Belt Zone / River Protection Belt :&#xa;i  Agriculture&#xa;ii Tree plantation, gardens, public parks, landscaping, recreational open spaces, forestry, and nurseries.&#xa;iii River front development by Authority or any institution authorised on behalf of Authority.&#xa;iv Development of pedestrian pathways, Jogging tracks, Cycle tracks, Boat clubs etc. &#xa;v  Swimming pools, clubhouses, and other recreational facilities, provided:&#xa;    -&gt;A 15.0 m belt is left along the riverbank.&#xa;    -&gt;A 9.0 m setback is maintained from Nallahs.&#xa;    -&gt;Compliance with other regulatory provisions.&#xa;vi Public Toilets permitted as per the requirement.&#xa;vii Recreational Open Space (ROS) in Layouts/Subdivisions&#xa;     -&gt;If a layout/subdivision proposal includes recreational open space adjacent to a green belt:&#xa;     -&gt;A 15.0 m marginal distance must be maintained from rivers.&#xa;     -&gt;A 9.0 m marginal distance must be maintained from Nallahs.&#xa;     -&gt;Additional conditions as per Regulation No. 3.1.3 must be followed.&#xa;   a.  Recreational Open Space extent of permissible uses shall follow the specifications in this regulation&#xa;   b . Land Handover for Public Purpose&#xa;     -&gt;If the Authority requires land in the green belt for public use:&#xa;     -&gt;The owner must transfer possession for public development and maintenance.&#xa;     -&gt;The land will remain open and accessible for recreational activities.&#xa;   c Marginal Distance Requirements for Buildings Near Rivers/Nallahs&#xa;      -&gt;The side/rear marginal distance must be the maximum of the following:&#xa;          -&gt;Distance required as per building height.&#xa;          -&gt;4.5 m from the boundary line of the green belt and the developable zone.&#xa;          -&gt;Mandatory 15.0 m setback from rivers or 9.0 m setback from Nallahs.&#xa;&#xa;&#xa;&#xa;"/>
+                    <Property name="text" type="java.lang.String" value="Permissible uses in the Green Belt Zone / River Protection Belt :&#xa;i  Agriculture&#xa;ii Tree plantation, gardens, public parks, landscaping, recreational open spaces, forestry, and nurseries.&#xa;iii River front development by Authority or any institution authorised on behalf of Authority.&#xa;iv Development of pedestrian pathways, Jogging tracks, Cycle tracks, Boat clubs etc. &#xa;v  Swimming pools, clubhouses, and other recreational facilities, provided:&#xa;    -&gt;A 15.0 m belt is left along the riverbank.&#xa;    -&gt;A 9.0 m setback is maintained from Nallahs.&#xa;    -&gt;Compliance with other regulatory provisions.&#xa;vi Public Toilets permitted as per the requirement.&#xa;vii Recreational Open Space (ROS) in Layouts/Subdivisions&#xa;     -&gt;If a layout/subdivision proposal includes recreational open space adjacent to a green belt:&#xa;     -&gt;A 15.0 m marginal distance must be maintained from rivers.&#xa;     -&gt;A 9.0 m marginal distance must be maintained from Nallahs.&#xa;     -&gt;Additional conditions as per Regulation No. 3.1.3 must be followed.&#xa;   a.  Recreational Open Space extent of permissible uses shall follow the specifications in this regulation&#xa;   b . Land Handover for Public Purpose&#xa;     -&gt;If the Authority requires land in the green belt for public use:&#xa;     -&gt;The owner must transfer possession for public development and maintenance.&#xa;     -&gt;The land will remain open and accessible for recreational activities.&#xa;   c Marginal Distance Requirements for Buildings Near Rivers/Nallahs&#xa;      -&gt;The side/rear marginal distance must be the maximum of the following:&#xa;          -&gt;Distance required as per building height.&#xa;          -&gt;4.5 m from the boundary line of the green belt and the developable zone.&#xa;          -&gt;Mandatory 15.0 m setback from rivers or 9.0 m setback from Nallahs."/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -917,7 +924,7 @@
                     </Property>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="Permissible uses in the Green Zone -2 :&#xa;i All uses permissible in Hill Top - Hill Slope Zone.  &#xa;ii Gaothan expansion &#xa;iii Primary and Nursery Schools including student hostels.  "/>
+                    <Property name="text" type="java.lang.String" value="Permissible uses in the Green Zone -2 :&#xa;i All uses permissible in Hill Top - Hill Slope Zone.  &#xa;ii Gaothan expansion &#xa;iii Primary and Nursery Schools including student hostels."/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -931,6 +938,9 @@
               </Properties>
             </Component>
             <Container class="javax.swing.JScrollPane" name="jScrollPane13">
+              <Properties>
+                <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+              </Properties>
               <AuxValues>
                 <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
               </AuxValues>
@@ -951,6 +961,81 @@
             </Container>
           </SubComponents>
         </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane14" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane14" min="-2" pref="117" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="USES PERMISSIBLE IN DEVELOPMENT PLAN RESERVATIONS "/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane14">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f2" green="f2" red="f2" type="rgb"/>
+            </Property>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea13">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="The permissible uses for a reserved site must align with its designated purpose unless specified otherwise.&#xa;Essential amenities like parking, public toilets, and garbage bins are allowed within the reserved site.&#xa;1. The Authority may use up to 40% of a reserved site for a different public purpose, provided the uses are&#xa;    compatible. Essential public utilities such as police stations, water supply facilities, and waste segregation &#xa;    centers are allowed. &#xa;2. A site reserved for a specific purpose in the development plan may be developed for another public purpose &#xa;   with government approval. Buildable reservations can be used for buildable or recreational purposes, while                              open/recreational reservations must remain open/recreational.&#xa;3. The Planning Authority, with prior government approval, may acquire and develop a reserved site for&#xa;    multi-storeyed public parking if parking is urgently needed in the area. For exclusions under Regulation &#xa;    4.27(5)(a)(b)(c), parking may be developed in basements while maintaining the main purpose at ground &#xa;    level with a 1.0m soil layer and water recharge arrangements.&#xa;4. The Planning Authority may permit a combination of uses on reserved sites with approval. &#xa;     Key provisions include:&#xa;     1. Playground &#x2013; 90% must remain open for play, while 10% can have a gym, pavilion, swimming pool, &#xa;         small restaurants (20 sq.m. per 4000 sq.m.), etc. (FSI: 0.15).&#xa;      2. Stadium/Sports Complex &#x2013; Same as playground, plus shops/offices under the spectator gallery&#xa;      3. Garden/Park &#x2013; Open swimming pools, aquariums, water tanks, small restaurants  &#xa;          (20 sq.m. per 4000 sq.m.), watchman&#x2019;s quarters, etc. (FSI: 0.10). Up to 10% may be converted into &#xa;          a playground.&#xa;      4. Civic/Community Centre &#x2013; Includes halls, gyms, art galleries, welfare centers, exhibition halls, etc. &#xa;          Convenience shops allowed within 15% of FSI.&#xa;     5. Vegetable Market &#x2013; Includes covered/uncovered stalls for vegetables, meat, and petty shops.&#xa;     6. Shopping Centre/Market &#x2013; Includes markets, hawker zones, banks, offices, and departmental stores.&#xa;     7. Auditorium/Drama Theatre &#x2013; Includes art galleries, libraries, exhibition halls, guest rooms for artists, and &#xa;         small restaurants (20 sq.m. per 4000 sq.m.).&#xa;    8. Schools &#x2013; Canteens, staff quarters, hostels, and 15% of built-up area for commercial use (on the ground &#xa;        floor with separate entry).&#xa;    9. Hospitals/Maternity Homes &#x2013; Includes medical facilities, staff quarters, chemist shops, small restaurants,   &#xa;         ATMs, cyber caf&#xe9;s (20 sq.m.), and guest accommodations (for hospitals over 2000 sq.m.).&#xa;   10. Slum Improvement Zone &#x2013; To be developed as per Slum Rehabilitation Authority regulations.&#xa;   11. Truck Terminus &#x2013; 60% for truck parking, with ancillary facilities like restaurants, lodging, auto repair centers, &#xa;         and EV charging stations. It may also be developed as a bus stand.&#xa;    12. Bus Stand/Metro Station/Transport Hub &#x2013; Includes ancillary uses; existing occupants may be accommodated &#xa;          on upper floors of new buildings.&#xa;    13. Fire Brigade Station &#x2013; Along with allied activities.&#xa;    14. Sewage Treatment, Solid Waste, Water Works &#x2013; Respective uses with interchangeability.&#xa;    15. Parking Lots &#x2013; May include driver rooms, garages, and public conveniences (10% max.). Existing occupants &#xa;          may be relocated to upper floors.&#xa;    16. Public Amenity/Municipal Purpose &#x2013; Any relevant public function.&#xa;    17. Cremation/Burial Ground &#x2013; Includes allied facilities.&#xa;    18. Weekly Market &#x2013; For vegetables, cattle, and ancillary shops.&#xa;    19. Multipurpose Ground &#x2013; Used for exhibitions, fairs, religious/cultural events, concerts, and institutional programs.&#xa;         No permanent construction except for playground use.&#xa;    20. Exhibition Ground &#x2013; For exhibitions with up to 10% built-up area.&#xa;    21. Bio-Diversity Park &#x2013; Includes agriculture, forestry, nurseries, and small museums/research centers &#xa;          (4% of total area, ground floor only).&#xa;    22. Bus/Truck Terminal (Cities with 5L+ population) &#x2013; 40% for vehicle movement, 60% for affordable housing                             (segregated access required).&#xa;    23. Other Reservations &#x2013; May be developed for their intended purpose with compatible ancillary uses."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="NOTE: The Authority may modify the list over time."/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>

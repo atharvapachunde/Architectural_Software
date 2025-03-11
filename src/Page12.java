@@ -112,6 +112,11 @@ public class Page12 extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
         jScrollPane13 = new javax.swing.JScrollPane();
         jTextArea12 = new javax.swing.JTextArea();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel20 = new javax.swing.JLabel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTextArea13 = new javax.swing.JTextArea();
+        jLabel21 = new javax.swing.JLabel();
 
         jLabel8.setText("jLabel8");
 
@@ -529,7 +534,7 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea9.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea9.setColumns(20);
         jTextArea9.setRows(5);
-        jTextArea9.setText("Permissible uses in the Green Belt Zone / River Protection Belt :\ni  Agriculture\nii Tree plantation, gardens, public parks, landscaping, recreational open spaces, forestry, and nurseries.\niii River front development by Authority or any institution authorised on behalf of Authority.\niv Development of pedestrian pathways, Jogging tracks, Cycle tracks, Boat clubs etc. \nv  Swimming pools, clubhouses, and other recreational facilities, provided:\n    ->A 15.0 m belt is left along the riverbank.\n    ->A 9.0 m setback is maintained from Nallahs.\n    ->Compliance with other regulatory provisions.\nvi Public Toilets permitted as per the requirement.\nvii Recreational Open Space (ROS) in Layouts/Subdivisions\n     ->If a layout/subdivision proposal includes recreational open space adjacent to a green belt:\n     ->A 15.0 m marginal distance must be maintained from rivers.\n     ->A 9.0 m marginal distance must be maintained from Nallahs.\n     ->Additional conditions as per Regulation No. 3.1.3 must be followed.\n   a.  Recreational Open Space extent of permissible uses shall follow the specifications in this regulation\n   b . Land Handover for Public Purpose\n     ->If the Authority requires land in the green belt for public use:\n     ->The owner must transfer possession for public development and maintenance.\n     ->The land will remain open and accessible for recreational activities.\n   c Marginal Distance Requirements for Buildings Near Rivers/Nallahs\n      ->The side/rear marginal distance must be the maximum of the following:\n          ->Distance required as per building height.\n          ->4.5 m from the boundary line of the green belt and the developable zone.\n          ->Mandatory 15.0 m setback from rivers or 9.0 m setback from Nallahs.\n\n\n\n");
+        jTextArea9.setText("Permissible uses in the Green Belt Zone / River Protection Belt :\ni  Agriculture\nii Tree plantation, gardens, public parks, landscaping, recreational open spaces, forestry, and nurseries.\niii River front development by Authority or any institution authorised on behalf of Authority.\niv Development of pedestrian pathways, Jogging tracks, Cycle tracks, Boat clubs etc. \nv  Swimming pools, clubhouses, and other recreational facilities, provided:\n    ->A 15.0 m belt is left along the riverbank.\n    ->A 9.0 m setback is maintained from Nallahs.\n    ->Compliance with other regulatory provisions.\nvi Public Toilets permitted as per the requirement.\nvii Recreational Open Space (ROS) in Layouts/Subdivisions\n     ->If a layout/subdivision proposal includes recreational open space adjacent to a green belt:\n     ->A 15.0 m marginal distance must be maintained from rivers.\n     ->A 9.0 m marginal distance must be maintained from Nallahs.\n     ->Additional conditions as per Regulation No. 3.1.3 must be followed.\n   a.  Recreational Open Space extent of permissible uses shall follow the specifications in this regulation\n   b . Land Handover for Public Purpose\n     ->If the Authority requires land in the green belt for public use:\n     ->The owner must transfer possession for public development and maintenance.\n     ->The land will remain open and accessible for recreational activities.\n   c Marginal Distance Requirements for Buildings Near Rivers/Nallahs\n      ->The side/rear marginal distance must be the maximum of the following:\n          ->Distance required as per building height.\n          ->4.5 m from the boundary line of the green belt and the developable zone.\n          ->Mandatory 15.0 m setback from rivers or 9.0 m setback from Nallahs.");
         jScrollPane10.setViewportView(jTextArea9);
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -547,11 +552,13 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea11.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea11.setColumns(20);
         jTextArea11.setRows(5);
-        jTextArea11.setText("Permissible uses in the Green Zone -2 :\ni All uses permissible in Hill Top - Hill Slope Zone.  \nii Gaothan expansion \niii Primary and Nursery Schools including student hostels.  ");
+        jTextArea11.setText("Permissible uses in the Green Zone -2 :\ni All uses permissible in Hill Top - Hill Slope Zone.  \nii Gaothan expansion \niii Primary and Nursery Schools including student hostels.");
         jScrollPane12.setViewportView(jTextArea11);
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel19.setText("Defense Zone");
+
+        jScrollPane13.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
         jTextArea12.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea12.setColumns(20);
@@ -660,37 +667,83 @@ public class Page12 extends javax.swing.JFrame {
                 .addComponent(jLabel19)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
+
+        jLabel20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel20.setText("USES PERMISSIBLE IN DEVELOPMENT PLAN RESERVATIONS ");
+
+        jScrollPane14.setBackground(new java.awt.Color(242, 242, 242));
+        jScrollPane14.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        jTextArea13.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea13.setColumns(20);
+        jTextArea13.setRows(5);
+        jTextArea13.setText("The permissible uses for a reserved site must align with its designated purpose unless specified otherwise.\nEssential amenities like parking, public toilets, and garbage bins are allowed within the reserved site.\n1. The Authority may use up to 40% of a reserved site for a different public purpose, provided the uses are\n    compatible. Essential public utilities such as police stations, water supply facilities, and waste segregation \n    centers are allowed. \n2. A site reserved for a specific purpose in the development plan may be developed for another public purpose \n   with government approval. Buildable reservations can be used for buildable or recreational purposes, while                              open/recreational reservations must remain open/recreational.\n3. The Planning Authority, with prior government approval, may acquire and develop a reserved site for\n    multi-storeyed public parking if parking is urgently needed in the area. For exclusions under Regulation \n    4.27(5)(a)(b)(c), parking may be developed in basements while maintaining the main purpose at ground \n    level with a 1.0m soil layer and water recharge arrangements.\n4. The Planning Authority may permit a combination of uses on reserved sites with approval. \n     Key provisions include:\n     1. Playground – 90% must remain open for play, while 10% can have a gym, pavilion, swimming pool, \n         small restaurants (20 sq.m. per 4000 sq.m.), etc. (FSI: 0.15).\n      2. Stadium/Sports Complex – Same as playground, plus shops/offices under the spectator gallery\n      3. Garden/Park – Open swimming pools, aquariums, water tanks, small restaurants  \n          (20 sq.m. per 4000 sq.m.), watchman’s quarters, etc. (FSI: 0.10). Up to 10% may be converted into \n          a playground.\n      4. Civic/Community Centre – Includes halls, gyms, art galleries, welfare centers, exhibition halls, etc. \n          Convenience shops allowed within 15% of FSI.\n     5. Vegetable Market – Includes covered/uncovered stalls for vegetables, meat, and petty shops.\n     6. Shopping Centre/Market – Includes markets, hawker zones, banks, offices, and departmental stores.\n     7. Auditorium/Drama Theatre – Includes art galleries, libraries, exhibition halls, guest rooms for artists, and \n         small restaurants (20 sq.m. per 4000 sq.m.).\n    8. Schools – Canteens, staff quarters, hostels, and 15% of built-up area for commercial use (on the ground \n        floor with separate entry).\n    9. Hospitals/Maternity Homes – Includes medical facilities, staff quarters, chemist shops, small restaurants,   \n         ATMs, cyber cafés (20 sq.m.), and guest accommodations (for hospitals over 2000 sq.m.).\n   10. Slum Improvement Zone – To be developed as per Slum Rehabilitation Authority regulations.\n   11. Truck Terminus – 60% for truck parking, with ancillary facilities like restaurants, lodging, auto repair centers, \n         and EV charging stations. It may also be developed as a bus stand.\n    12. Bus Stand/Metro Station/Transport Hub – Includes ancillary uses; existing occupants may be accommodated \n          on upper floors of new buildings.\n    13. Fire Brigade Station – Along with allied activities.\n    14. Sewage Treatment, Solid Waste, Water Works – Respective uses with interchangeability.\n    15. Parking Lots – May include driver rooms, garages, and public conveniences (10% max.). Existing occupants \n          may be relocated to upper floors.\n    16. Public Amenity/Municipal Purpose – Any relevant public function.\n    17. Cremation/Burial Ground – Includes allied facilities.\n    18. Weekly Market – For vegetables, cattle, and ancillary shops.\n    19. Multipurpose Ground – Used for exhibitions, fairs, religious/cultural events, concerts, and institutional programs.\n         No permanent construction except for playground use.\n    20. Exhibition Ground – For exhibitions with up to 10% built-up area.\n    21. Bio-Diversity Park – Includes agriculture, forestry, nurseries, and small museums/research centers \n          (4% of total area, ground floor only).\n    22. Bus/Truck Terminal (Cities with 5L+ population) – 40% for vehicle movement, 60% for affordable housing                             (segregated access required).\n    23. Other Reservations – May be developed for their intended purpose with compatible ancillary uses.");
+        jScrollPane14.setViewportView(jTextArea13);
+
+        jLabel21.setText("NOTE: The Authority may modify the list over time.");
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel20)
+                .addGap(149, 149, 149))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane14))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addComponent(jLabel21)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jLabel20)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel21)
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(201, 201, 201)
+                        .addComponent(jButton4)
+                        .addGap(133, 133, 133)
+                        .addComponent(jButton3)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(201, 201, 201)
-                .addComponent(jButton4)
-                .addGap(133, 133, 133)
-                .addComponent(jButton3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -757,7 +810,7 @@ public class Page12 extends javax.swing.JFrame {
     }
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         headingPanelActivation();
-        jScrollPane3.setVisible(false);
+        //jScrollPane3.setVisible(false);
         jScrollPane4.setVisible(false);
         JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
         verticalScrollBar.setValue(0);
@@ -795,6 +848,9 @@ public class Page12 extends javax.swing.JFrame {
         JScrollBar verticalScrollBar11 = jScrollPane13.getVerticalScrollBar();
         verticalScrollBar11.setValue(0);
         
+        JScrollBar verticalScrollBar12 = jScrollPane14.getVerticalScrollBar();
+        verticalScrollBar12.setValue(0);
+        
         
         
         jLabel4.setText("");
@@ -805,27 +861,27 @@ public class Page12 extends javax.swing.JFrame {
         JScrollBar verticalScrollBar = jScrollPane1.getVerticalScrollBar();
 
         if (zone.equals("Residential Zone")) {
-            verticalScrollBar.setValue(50);
+            verticalScrollBar.setValue(180);
         } else if (zone.equals("Low Density Residential Zone")) {
-            verticalScrollBar.setValue(150);
+            verticalScrollBar.setValue(370);
         } else if (zone.equals("Future Urbanizable Zone")) {
-            verticalScrollBar.setValue(300);
-        } else if (zone.equals("Commercial Zone")) {
             verticalScrollBar.setValue(400);
+        } else if (zone.equals("Commercial Zone")) {
+            verticalScrollBar.setValue(520);
         } else if (zone.equals("Industrial Zone")) {
-            verticalScrollBar.setValue(500);
+            verticalScrollBar.setValue(670);
         } else if (zone.equals("Public/Semi Public Zone")) {
-            verticalScrollBar.setValue(700);
+            verticalScrollBar.setValue(800);
         } else if (zone.equals("Agricultural Zone")) {
-            verticalScrollBar.setValue(800);
+            verticalScrollBar.setValue(950);
         } else if (zone.equals("Green Belt Zone/River Protection Belt")) {
-            verticalScrollBar.setValue(800);
+            verticalScrollBar.setValue(1350);
         } else if (zone.equals("Afforestation Zone")) {
-            verticalScrollBar.setValue(900);
-        } else if (zone.equals("Green Zone-2")) {
-            verticalScrollBar.setValue(1000);
+            verticalScrollBar.setValue(1600);
+        } else if (zone.equals("Green Zone-2 ")) {
+            verticalScrollBar.setValue(1700);
         } else if (zone.equals("Defense Zone")) {
-            verticalScrollBar.setValue(0);
+            verticalScrollBar.setValue(1800);
         }
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
@@ -894,6 +950,8 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -904,6 +962,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
@@ -914,6 +973,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -926,6 +986,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea10;
     private javax.swing.JTextArea jTextArea11;
     private javax.swing.JTextArea jTextArea12;
+    private javax.swing.JTextArea jTextArea13;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
