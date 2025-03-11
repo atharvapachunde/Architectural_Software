@@ -96,6 +96,10 @@ public class Page12 extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jScrollPane8 = new javax.swing.JScrollPane();
         jTextArea7 = new javax.swing.JTextArea();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
 
         jLabel8.setText("jLabel8");
 
@@ -282,7 +286,7 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea1.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("In land development or redevelopment, the intended use must align with its designated purpose in the \ni) Development Plan, Regional Plan, or Planning Proposal, unless stated otherwise.\n\nii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional \nPlan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must \nconform to regulations or lawful existing use.\n\niii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. \nLandowners can develop land based on the permitted zone, and physical features like roads or water bodies will \nbe considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.\n\niv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or \nproposed use. Basement parking may be permitted under playgrounds, subject to conditions.\n\nv) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, \nit will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited.");
+        jTextArea1.setText("i) In land development or redevelopment, the intended use must align with its designated purpose in the \nDevelopment Plan, Regional Plan, or Planning Proposal, unless stated otherwise.\n\nii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional \nPlan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must \nconform to regulations or lawful existing use.\n\niii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. \nLandowners can develop land based on the permitted zone, and physical features like roads or water bodies will \nbe considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.\n\niv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or \nproposed use. Basement parking may be permitted under playgrounds, subject to conditions.\n\nv) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, \nit will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited.");
         jScrollPane2.setViewportView(jTextArea1);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -452,8 +456,7 @@ public class Page12 extends javax.swing.JFrame {
                 .addGap(271, 271, 271))
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane7)
-                .addContainerGap())
+                .addComponent(jScrollPane7))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -476,6 +479,39 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea7.setText("Permissible Uses\n1) Educational & Institutional: Schools, colleges, training institutes, hostels, staff quarters.\n2) Healthcare & Welfare: Hospitals, dispensaries, maternity homes, sanatoria, health centers, veterinary hospitals, \nhomes for the aged.\n3) Government & Public Services: Govt. & semi-govt. offices, courts, public housing.\n4) Public & Utility Services: Transport, research, education, and healthcare institutions.\n5) Community & Cultural: Libraries, community halls, stadia, religious structures, auditoriums, cultural centers.\n6) Limited Commercial Use (Max 15%):\n7) Restrictions: Liquor, tobacco, lottery, hazardous storage (gas cylinders, kerosene) not allowed.\n8) Exception: Zilla Parishad & Panchayat Samiti lands may allow up to 33% commercial use.\n9) Fuel & Charging Stations: LPG, CNG, Public EV Charging (Regulation 6.2.2, Table 6E).\n10) Special Care & Rehabilitation: Nurseries, crèches, spastic centers, orphanages, hostels for autistic & mentally \nchallenged persons.\n11) Emergency Services: Fire stations.\n12) Transport Infrastructure: Traffic and transport-related facilities.");
         jScrollPane8.setViewportView(jTextArea7);
 
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel14.setText("AGRICULTURE ZONE");
+
+        jTextArea8.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("Permissible uses in the Agricultural Zone:\n1, Agricultural uses, including stables, piggeries, poultry farms, and accessory buildings.\n2. Golf courses, race tracks, shooting ranges (with safety measures), trekking routes, and nature trails.\n3. Gardens, forestry, nurseries, public/private parks, playfields, and summer camps.\n4. Public/semi-public utility establishments (electric substations, gas distribution, sewage/water treatment, etc.) with staff \n   quarters.\n5. LPG Godowns (conditions: minimum plot size per licensing authority, 20% FSI, ground floor only, NOC required).\n6. Fuel Filling Stations (LPG/CNG/Ethanol/EV Charging) (conditions: minimum 12m road width, 20% FSI, NOC from Explosives \n   Authority, compliance with IRC/MORTH road junction guidelines, ancillary facilities like sales offices/restaurants allowed).\n7. Pottery manufacturing.\n8. Fertilizer storage and drying.\n9. Farmhouses (conditions: minimum plot 0.4 Ha, 0.04 FSI, max 400 sq.m. built-up area, ground +1 structure, max height 9m).\n10. Swimming pools, sports facilities, canteens, and tennis courts.\n11. Amusement Park (min. 1.0 Ha) with rides, swimming pools, ethnic villages, shops, hotels, etc. (0.70 FSI; 0.20 free, remainder\nwith premium). Must provide infrastructure, waste disposal, parking, and plant 250 trees/Ha. Ride areas not counted in FSI.\n12. IT/ITES Parks/Units (0.20 FSI, as per Regulation No.7.8).\n13. Government/Semi-Government Buildings & Resettlement Projects (FSI as per Residential Zone).\n14. Biotechnology Units/B.T. Parks (as per Regulation No.7.9).\n15. Educational, Research, Medical, and Spiritual Centers (FSI 1.00; 0.20 free, remainder with premium). Must plant 250\n trees/Ha. Higher FSI as per Chapter-7, capped at 100%. Educational use may have 15% commercial space (Regulation \n No.4.10(vi)).\n16. Integrated Highway/Wayside Amenities (min. 10,000 sq.m.) on NH/SH or 18m-wide roads, including motels, restaurants, \n     fuel pumps, hypermarkets, banks, trauma centers, etc. (FSI 0.2 free, up to 0.3 with premium). No subdivision allowed; fuel \n     pumps separately earmarked. Individual uses allowed on 12m-wide roads (min. 4000 sq.m.).\n17. Ancillary Service Industries for agro products (e.g., cold storages, godowns, grading, banking) with FSI 0.2 free, up to 1.0 \n     with premium.\n18. Industries (FSI 0.2 free, up to 1.0 with premium). 23m buffer from residential zones unless for non-polluting industries, \n      IT/ITES. Industrial layouts allowed with conditions.\n19. Solid Waste Management & Power from Waste.\n20. Non-Conventional Power Generation (solar panels not counted in FSI).\n21. Brick, Tile Manufacturing.\n22. Fish Farming.\n23. Religious Buildings (subject to authority approval).\n24. Slaughterhouses & Animal Disposal Facilities (special permission required).\n25. Cemeteries & Crematoria.\n26. Scrap Market (FSI 0.2 free, up to 1.0 with premium).\n27. Mangal Karyalayas/Lawns (min. 0.4 Ha for Karyalaya, 0.8 Ha for lawns, FSI 0.2 & 0.1 respectively, 40% area for parking). \n     Abuts 9m road (urban) or 12m road (rural).\n28. Bus Terminus.\n29. Communication Routes (roads, railways, airstrips, ropeways, ports, electric lines).\n30. Town Planning Schemes (Min. 20 Ha) under Maharashtra Regional & Town Planning Act, 1966, with full cost borne by \n owners. After sanction, all residential zone uses permitted with respective FSI. Alternatively, owners can develop under \n similar principles with a 12m approach road and 40% land for public use.\n-->10% land for parks/playgrounds (no FSI compensation).\n-->15% land for social infrastructure/sale (FSI compensation in-situ).\n-->15% road area (FSI compensation in-situ); excess road area under owner/developer.\n-->Phase-wise residential zone permissions after infrastructure completion.\n31. Fireworks/Explosives Manufacturing & Storage (Min. 2 km from Gaothan boundary, NOC from Chief Controller of Explosives).\n32. Cinema/TV Film Production & Studios (Min. 2 Ha plot, FSI 0.2 free, up to 1.0 with premium).\n33. Tourism & Hospitality (FSI 0.2 free, up to 1.0 with premium):\n-->Tourist homes, resorts, hotels, motels, health & wellness spas, golf courses, art villages,\n      exhibition centers, adventure/eco/agriculture/medical tourism projects.\n--> Boutique wineries, guest houses, B&B schemes (MTDC/DoT approved).\n--> Includes reception, kitchen, parking, guard cabins, landscaping, and one 15m observation tower \n      per resort (10 sq.m platform)\n");
+        jScrollPane9.setViewportView(jTextArea8);
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(282, 282, 282)
+                        .addComponent(jLabel14))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 673, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(32, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -488,12 +524,11 @@ public class Page12 extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(14, 14, 14)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jScrollPane2)
-                                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addComponent(jLabel6))))
+                                .addComponent(jLabel6))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 684, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(250, 250, 250)
                         .addComponent(jLabel12))
@@ -506,7 +541,9 @@ public class Page12 extends javax.swing.JFrame {
                             .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 673, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(120, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -532,7 +569,9 @@ public class Page12 extends javax.swing.JFrame {
                 .addComponent(jLabel12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(111, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
@@ -564,7 +603,7 @@ public class Page12 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 437, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
@@ -720,6 +759,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -734,6 +774,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
@@ -744,6 +785,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
@@ -751,6 +793,7 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea5;
     private javax.swing.JTextArea jTextArea6;
     private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;

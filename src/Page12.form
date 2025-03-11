@@ -64,7 +64,7 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="437" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -272,14 +272,12 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jScrollPane2" max="32767" attributes="0"/>
-                                      <Component id="jPanel3" max="32767" attributes="0"/>
-                                  </Group>
+                                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                                   </Group>
+                                  <Component id="jScrollPane2" alignment="0" min="-2" pref="684" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -297,7 +295,10 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane8" min="-2" pref="673" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jScrollPane8" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace pref="120" max="32767" attributes="0"/>
@@ -327,7 +328,9 @@
                       <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -358,7 +361,7 @@
                     </Property>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="In land development or redevelopment, the intended use must align with its designated purpose in the &#xa;i) Development Plan, Regional Plan, or Planning Proposal, unless stated otherwise.&#xa;&#xa;ii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional &#xa;Plan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must &#xa;conform to regulations or lawful existing use.&#xa;&#xa;iii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. &#xa;Landowners can develop land based on the permitted zone, and physical features like roads or water bodies will &#xa;be considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.&#xa;&#xa;iv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or &#xa;proposed use. Basement parking may be permitted under playgrounds, subject to conditions.&#xa;&#xa;v) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, &#xa;it will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited."/>
+                    <Property name="text" type="java.lang.String" value="i) In land development or redevelopment, the intended use must align with its designated purpose in the &#xa;Development Plan, Regional Plan, or Planning Proposal, unless stated otherwise.&#xa;&#xa;ii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional &#xa;Plan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must &#xa;conform to regulations or lawful existing use.&#xa;&#xa;iii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. &#xa;Landowners can develop land based on the permitted zone, and physical features like roads or water bodies will &#xa;be considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.&#xa;&#xa;iv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or &#xa;proposed use. Basement parking may be permitted under playgrounds, subject to conditions.&#xa;&#xa;v) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, &#xa;it will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited."/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -641,7 +644,6 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane7" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -715,6 +717,68 @@
                     <Property name="text" type="java.lang.String" value="Permissible Uses&#xa;1) Educational &amp; Institutional: Schools, colleges, training institutes, hostels, staff quarters.&#xa;2) Healthcare &amp; Welfare: Hospitals, dispensaries, maternity homes, sanatoria, health centers, veterinary hospitals, &#xa;homes for the aged.&#xa;3) Government &amp; Public Services: Govt. &amp; semi-govt. offices, courts, public housing.&#xa;4) Public &amp; Utility Services: Transport, research, education, and healthcare institutions.&#xa;5) Community &amp; Cultural: Libraries, community halls, stadia, religious structures, auditoriums, cultural centers.&#xa;6) Limited Commercial Use (Max 15%):&#xa;7) Restrictions: Liquor, tobacco, lottery, hazardous storage (gas cylinders, kerosene) not allowed.&#xa;8) Exception: Zilla Parishad &amp; Panchayat Samiti lands may allow up to 33% commercial use.&#xa;9) Fuel &amp; Charging Stations: LPG, CNG, Public EV Charging (Regulation 6.2.2, Table 6E).&#xa;10) Special Care &amp; Rehabilitation: Nurseries, cr&#xe8;ches, spastic centers, orphanages, hostels for autistic &amp; mentally &#xa;challenged persons.&#xa;11) Emergency Services: Fire stations.&#xa;12) Transport Infrastructure: Traffic and transport-related facilities."/>
                   </Properties>
                 </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="282" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane9" min="-2" pref="673" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane9" min="-2" pref="388" max="-2" attributes="0"/>
+                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="AGRICULTURE ZONE"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea8">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="Permissible uses in the Agricultural Zone:&#xa;1, Agricultural uses, including stables, piggeries, poultry farms, and accessory buildings.&#xa;2. Golf courses, race tracks, shooting ranges (with safety measures), trekking routes, and nature trails.&#xa;3. Gardens, forestry, nurseries, public/private parks, playfields, and summer camps.&#xa;4. Public/semi-public utility establishments (electric substations, gas distribution, sewage/water treatment, etc.) with staff &#xa;   quarters.&#xa;5. LPG Godowns (conditions: minimum plot size per licensing authority, 20% FSI, ground floor only, NOC required).&#xa;6. Fuel Filling Stations (LPG/CNG/Ethanol/EV Charging) (conditions: minimum 12m road width, 20% FSI, NOC from Explosives &#xa;   Authority, compliance with IRC/MORTH road junction guidelines, ancillary facilities like sales offices/restaurants allowed).&#xa;7. Pottery manufacturing.&#xa;8. Fertilizer storage and drying.&#xa;9. Farmhouses (conditions: minimum plot 0.4 Ha, 0.04 FSI, max 400 sq.m. built-up area, ground +1 structure, max height 9m).&#xa;10. Swimming pools, sports facilities, canteens, and tennis courts.&#xa;11. Amusement Park (min. 1.0 Ha) with rides, swimming pools, ethnic villages, shops, hotels, etc. (0.70 FSI; 0.20 free, remainder&#xa;with premium). Must provide infrastructure, waste disposal, parking, and plant 250 trees/Ha. Ride areas not counted in FSI.&#xa;12. IT/ITES Parks/Units (0.20 FSI, as per Regulation No.7.8).&#xa;13. Government/Semi-Government Buildings &amp; Resettlement Projects (FSI as per Residential Zone).&#xa;14. Biotechnology Units/B.T. Parks (as per Regulation No.7.9).&#xa;15. Educational, Research, Medical, and Spiritual Centers (FSI 1.00; 0.20 free, remainder with premium). Must plant 250&#xa; trees/Ha. Higher FSI as per Chapter-7, capped at 100%. Educational use may have 15% commercial space (Regulation &#xa; No.4.10(vi)).&#xa;16. Integrated Highway/Wayside Amenities (min. 10,000 sq.m.) on NH/SH or 18m-wide roads, including motels, restaurants, &#xa;     fuel pumps, hypermarkets, banks, trauma centers, etc. (FSI 0.2 free, up to 0.3 with premium). No subdivision allowed; fuel &#xa;     pumps separately earmarked. Individual uses allowed on 12m-wide roads (min. 4000 sq.m.).&#xa;17. Ancillary Service Industries for agro products (e.g., cold storages, godowns, grading, banking) with FSI 0.2 free, up to 1.0 &#xa;     with premium.&#xa;18. Industries (FSI 0.2 free, up to 1.0 with premium). 23m buffer from residential zones unless for non-polluting industries, &#xa;      IT/ITES. Industrial layouts allowed with conditions.&#xa;19. Solid Waste Management &amp; Power from Waste.&#xa;20. Non-Conventional Power Generation (solar panels not counted in FSI).&#xa;21. Brick, Tile Manufacturing.&#xa;22. Fish Farming.&#xa;23. Religious Buildings (subject to authority approval).&#xa;24. Slaughterhouses &amp; Animal Disposal Facilities (special permission required).&#xa;25. Cemeteries &amp; Crematoria.&#xa;26. Scrap Market (FSI 0.2 free, up to 1.0 with premium).&#xa;27. Mangal Karyalayas/Lawns (min. 0.4 Ha for Karyalaya, 0.8 Ha for lawns, FSI 0.2 &amp; 0.1 respectively, 40% area for parking). &#xa;     Abuts 9m road (urban) or 12m road (rural).&#xa;28. Bus Terminus.&#xa;29. Communication Routes (roads, railways, airstrips, ropeways, ports, electric lines).&#xa;30. Town Planning Schemes (Min. 20 Ha) under Maharashtra Regional &amp; Town Planning Act, 1966, with full cost borne by &#xa; owners. After sanction, all residential zone uses permitted with respective FSI. Alternatively, owners can develop under &#xa; similar principles with a 12m approach road and 40% land for public use.&#xa;--&gt;10% land for parks/playgrounds (no FSI compensation).&#xa;--&gt;15% land for social infrastructure/sale (FSI compensation in-situ).&#xa;--&gt;15% road area (FSI compensation in-situ); excess road area under owner/developer.&#xa;--&gt;Phase-wise residential zone permissions after infrastructure completion.&#xa;31. Fireworks/Explosives Manufacturing &amp; Storage (Min. 2 km from Gaothan boundary, NOC from Chief Controller of Explosives).&#xa;32. Cinema/TV Film Production &amp; Studios (Min. 2 Ha plot, FSI 0.2 free, up to 1.0 with premium).&#xa;33. Tourism &amp; Hospitality (FSI 0.2 free, up to 1.0 with premium):&#xa;--&gt;Tourist homes, resorts, hotels, motels, health &amp; wellness spas, golf courses, art villages,&#xa;      exhibition centers, adventure/eco/agriculture/medical tourism projects.&#xa;--&gt; Boutique wineries, guest houses, B&amp;B schemes (MTDC/DoT approved).&#xa;--&gt; Includes reception, kitchen, parking, guard cabins, landscaping, and one 15m observation tower &#xa;      per resort (10 sq.m platform)&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>
