@@ -50,11 +50,6 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
-              <Component id="jLabel3" min="-2" pref="37" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -62,10 +57,8 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="141" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="65" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="298" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -271,7 +264,10 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                              <Component id="jScrollPane2" min="-2" pref="666" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane2" pref="666" max="32767" attributes="0"/>
+                                  <Component id="jPanel3" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace pref="120" max="32767" attributes="0"/>
@@ -285,7 +281,9 @@
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="60" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -321,14 +319,67 @@
                 </Component>
               </SubComponents>
             </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane3" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="RESIDENTIAL ZONE - R-1  "/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- &#xa;i Any residences, Slum Improvement / Rehabilitation. &#xa;ii Hostels for students / working men/ women, lodging with or without boarding facilities.&#xa;iii Old age home, sanatorium, orphanage, night shelter dormitories.  &#xa;iv Customary Home Occupations (without hired labor, max 1 H.P. power)&#xa;    -&gt;Stitching, embroidery, beauty parlors, button making, etc.&#xa;v Medical Facilities&#xa;    -&gt;Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).&#xa;    -&gt;Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor&apos;s residence is above.&#xa;vi Professional Offices for personal use, max carpet area of 50 sq.m.&#xa;vii Community &amp; Recreational Facilities&#xa;    -&gt;Community halls, gymnasiums (max 100 sq.m.).&#xa;    -&gt;Clubhouses/gymkhanas in residential complexes.&#xa;viii Educational Institutions&#xa;    -&gt;Primary and nursery schools, students&apos; hostels (excluding trade schools).&#xa;    -&gt;Cr&#xe8;che, daycare center (max 100 sq.m.).&#xa;    -&gt;Private coaching classes, student mess (max 100 sq.m.) with separate parking. &#xa;ix Religious &amp; Cultural Institutions&#xa;   -&gt;Religious buildings.&#xa;   -&gt;Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).&#xa;x Public Amenities &amp; Infrastructure&#xa;   -&gt;Parks, gardens, playfields (non-commercial).&#xa;   -&gt;Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.&#xa;   -&gt;Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,&#xa;        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.&#xa;xi Commercial &amp; Industrial Uses&#xa;   -&gt;Convenience shops (only on the ground floor).&#xa;   -&gt;Electronic assembly (not manufacturing), max 1 H.P. power.&#xa;   -&gt;IT establishments (software only) on roads with a width of 9m+.&#xa;   -&gt;Flour mills, wet/dry masala grinding (max 10 H.P. power).&#xa;xii Other Uses&#xa;   -&gt;Burial and cremation grounds (on roads 9m+ wide).&#xa;   -&gt;Agricultural, horticultural, and allied uses (excluding agro-based industries).&#xa;   -&gt;Raisin production, bookbinding.&#xa;   -&gt;Public conveniences.&#xa;   -&gt;Research, experimental, and testing laboratories (non-hazardous).&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
           </SubComponents>
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel3"/>
-      </Properties>
-    </Component>
   </SubComponents>
 </Form>

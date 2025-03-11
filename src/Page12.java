@@ -59,7 +59,10 @@ public class Page12 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jLabel3 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -247,6 +250,37 @@ public class Page12 extends javax.swing.JFrame {
         jTextArea1.setText("In land development or redevelopment, the intended use must align with its designated purpose in the \ni) Development Plan, Regional Plan, or Planning Proposal, unless stated otherwise.\n\nii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional \nPlan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must \nconform to regulations or lawful existing use.\n\niii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. \nLandowners can develop land based on the permitted zone, and physical features like roads or water bodies will \nbe considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.\n\niv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or \nproposed use. Basement parking may be permitted under playgrounds, subject to conditions.\n\nv) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, \nit will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited.");
         jScrollPane2.setViewportView(jTextArea1);
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setText("RESIDENTIAL ZONE - R-1  ");
+
+        jTextArea2.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- \ni Any residences, Slum Improvement / Rehabilitation. \nii Hostels for students / working men/ women, lodging with or without boarding facilities.\niii Old age home, sanatorium, orphanage, night shelter dormitories.  \niv Customary Home Occupations (without hired labor, max 1 H.P. power)\n    ->Stitching, embroidery, beauty parlors, button making, etc.\nv Medical Facilities\n    ->Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).\n    ->Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor's residence is above.\nvi Professional Offices for personal use, max carpet area of 50 sq.m.\nvii Community & Recreational Facilities\n    ->Community halls, gymnasiums (max 100 sq.m.).\n    ->Clubhouses/gymkhanas in residential complexes.\nviii Educational Institutions\n    ->Primary and nursery schools, students' hostels (excluding trade schools).\n    ->Crèche, daycare center (max 100 sq.m.).\n    ->Private coaching classes, student mess (max 100 sq.m.) with separate parking. \nix Religious & Cultural Institutions\n   ->Religious buildings.\n   ->Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).\nx Public Amenities & Infrastructure\n   ->Parks, gardens, playfields (non-commercial).\n   ->Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.\n   ->Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,\n        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.\nxi Commercial & Industrial Uses\n   ->Convenience shops (only on the ground floor).\n   ->Electronic assembly (not manufacturing), max 1 H.P. power.\n   ->IT establishments (software only) on roads with a width of 9m+.\n   ->Flour mills, wet/dry masala grinding (max 10 H.P. power).\nxii Other Uses\n   ->Burial and cremation grounds (on roads 9m+ wide).\n   ->Agricultural, horticultural, and allied uses (excluding agro-based industries).\n   ->Raisin production, bookbinding.\n   ->Public conveniences.\n   ->Research, experimental, and testing laboratories (non-hazardous).\n\n\n\n\n\n\n");
+        jScrollPane3.setViewportView(jTextArea2);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(241, 241, 241)
+                .addComponent(jLabel4)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jScrollPane3)
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(16, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -258,7 +292,9 @@ public class Page12 extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(14, 14, 14)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 666, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
+                            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(120, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -268,12 +304,12 @@ public class Page12 extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(60, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
-
-        jLabel3.setText("jLabel3");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -296,20 +332,14 @@ public class Page12 extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(174, 174, 174)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 298, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -374,6 +404,10 @@ public void headingPanelActivation() {
         headingPanelActivation();
         JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
         verticalScrollBar.setValue(0);
+        
+        JScrollBar verticalScrollBar1 = jScrollPane3.getVerticalScrollBar();
+        verticalScrollBar1.setValue(0);
+
     }//GEN-LAST:event_formWindowActivated
 
     /**
@@ -422,12 +456,15 @@ public void headingPanelActivation() {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;
