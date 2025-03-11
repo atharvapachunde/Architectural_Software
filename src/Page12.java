@@ -1,3 +1,6 @@
+
+import javax.swing.JScrollBar;
+
 public class Page12 extends javax.swing.JFrame {
 //Heading Panel Variables
 
@@ -22,6 +25,9 @@ public class Page12 extends javax.swing.JFrame {
         this.village = village;
         this.taluka = taluka;
         this.lowest = lowest;
+        
+        jTextArea1.setEditable(false);
+        
     }
 
     
@@ -48,8 +54,18 @@ public class Page12 extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
@@ -217,6 +233,45 @@ public class Page12 extends javax.swing.JFrame {
             }
         });
 
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setText("LAND USE CLASSIFICATION AND PERMISSIBLE USES");
+
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        jTextArea1.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("In land development or redevelopment, the intended use must align with its designated purpose in the \ni) Development Plan, Regional Plan, or Planning Proposal, unless stated otherwise.\n\nii) Non-Conforming Uses: Lawful non-conforming uses existing before the enforcement of a Development/Regional \nPlan may continue and expand within the original sanctioned limits. If a building with such use is rebuilt, it must \nconform to regulations or lawful existing use.\n\niii) Existing Features: Features shown in plans are indicative and may be modified as per actual conditions. \nLandowners can develop land based on the permitted zone, and physical features like roads or water bodies will \nbe considered per Land Records, allowing unaffected land to be developed as per adjacent predominant use.\n\niv) Parking Development: The Authority may develop land for public parking in any form, regardless of its existing or \nproposed use. Basement parking may be permitted under playgrounds, subject to conditions.\n\nv) Discontinuance of Zoning: If land was designated as Public/Semi-Public or Public Utility due to an existing activity, \nit will be deemed part of the adjacent predominant zone once the activity ceases, unless prohibited.");
+        jScrollPane2.setViewportView(jTextArea1);
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(179, 179, 179)
+                        .addComponent(jLabel2))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 666, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(120, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(342, Short.MAX_VALUE))
+        );
+
+        jScrollPane1.setViewportView(jPanel2);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -224,20 +279,28 @@ public class Page12 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(186, 186, 186)
+                                .addComponent(jButton4)
+                                .addGap(133, 133, 133)
+                                .addComponent(jButton3)))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(186, 186, 186)
-                        .addComponent(jButton4)
-                        .addGap(133, 133, 133)
-                        .addComponent(jButton3)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 458, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -260,6 +323,49 @@ public class Page12 extends javax.swing.JFrame {
         p11.pack();
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
+public void headingPanelActivation() {
+        //setting visibility
+        ctsl.setVisible(false);
+        cts1.setVisible(false);
+        gatnol.setVisible(false);
+        gatno1.setVisible(false);
+        surveyno_l.setVisible(false);
+        survey.setVisible(false);
+        plotno1.setVisible(false);
+        plotnol.setVisible(false);
+
+        if (!surveyno.isEmpty()) {
+            surveyno_l.setVisible(true);
+            survey.setVisible(true);
+            survey.setText(surveyno);
+        }
+        if (!ctsno.isEmpty()) {
+            ctsl.setVisible(true);
+            cts1.setVisible(true);
+            cts1.setText(ctsno);
+        }
+        if (!gatno.isEmpty()) {
+            gatno1.setVisible(true);
+            gatnol.setVisible(true);
+            gatno1.setText(gatno);
+        }
+        if (!plotno.isEmpty()) {
+            plotno1.setVisible(true);
+            plotnol.setVisible(true);
+            plotno1.setText(plotno);
+        }
+
+        //Setting village, lowest area, taluka
+        larea.setText(String.valueOf(lowest));
+        taluka1.setText(taluka);
+        village1.setText(village);
+
+    }
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+        headingPanelActivation();
+        JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
+        verticalScrollBar.setValue(0);
+    }//GEN-LAST:event_formWindowActivated
 
     /**
      * @param args the command line arguments
@@ -306,7 +412,12 @@ public class Page12 extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;
