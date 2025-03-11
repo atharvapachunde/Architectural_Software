@@ -456,13 +456,13 @@ public void headingPanelActivation() {
     private void jTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusLost
     Float tla = Float.parseFloat(jTextField1.getText()); 
     if(tla < 20000){
-        jLabel7.setText("          No Amenity Space Required.");
+        jLabel7.setText(" No Amenity Space Required.");
     }else{
         float amenitySpace = tla * (float)0.05;
         jLabel7.setText(amenitySpace + " sq.m. must be provided as amenity space");
     }
     }//GEN-LAST:event_jTextField1FocusLost
-
+    
 
     public static void main(String args[]) {
       
