@@ -1,4 +1,5 @@
 
+import javax.swing.ButtonGroup;
 import javax.swing.JScrollBar;
 
 public class Page12 extends javax.swing.JFrame {
@@ -11,13 +12,14 @@ public class Page12 extends javax.swing.JFrame {
     String village = "";
     String taluka = "";
     double lowest = 0.0;
-   
+
     public Page12() {
         initComponents();
     }
-      public Page12(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
+
+    public Page12(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
         initComponents();
-         //Panel Code Initialization
+        //Panel Code Initialization
         this.plotno = plotno;
         this.gatno = gatno;
         this.surveyno = surveyno;
@@ -27,10 +29,8 @@ public class Page12 extends javax.swing.JFrame {
         this.lowest = lowest;
         
         jTextArea1.setEditable(false);
-        
     }
 
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -63,6 +63,14 @@ public class Page12 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
+        jLabel3 = new javax.swing.JLabel();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jLabel5 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -253,33 +261,86 @@ public class Page12 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setText("RESIDENTIAL ZONE - R-1  ");
 
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
         jTextArea2.setBackground(new java.awt.Color(242, 242, 242));
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
-        jTextArea2.setText("Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- \ni Any residences, Slum Improvement / Rehabilitation. \nii Hostels for students / working men/ women, lodging with or without boarding facilities.\niii Old age home, sanatorium, orphanage, night shelter dormitories.  \niv Customary Home Occupations (without hired labor, max 1 H.P. power)\n    ->Stitching, embroidery, beauty parlors, button making, etc.\nv Medical Facilities\n    ->Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).\n    ->Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor's residence is above.\nvi Professional Offices for personal use, max carpet area of 50 sq.m.\nvii Community & Recreational Facilities\n    ->Community halls, gymnasiums (max 100 sq.m.).\n    ->Clubhouses/gymkhanas in residential complexes.\nviii Educational Institutions\n    ->Primary and nursery schools, students' hostels (excluding trade schools).\n    ->Crèche, daycare center (max 100 sq.m.).\n    ->Private coaching classes, student mess (max 100 sq.m.) with separate parking. \nix Religious & Cultural Institutions\n   ->Religious buildings.\n   ->Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).\nx Public Amenities & Infrastructure\n   ->Parks, gardens, playfields (non-commercial).\n   ->Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.\n   ->Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,\n        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.\nxi Commercial & Industrial Uses\n   ->Convenience shops (only on the ground floor).\n   ->Electronic assembly (not manufacturing), max 1 H.P. power.\n   ->IT establishments (software only) on roads with a width of 9m+.\n   ->Flour mills, wet/dry masala grinding (max 10 H.P. power).\nxii Other Uses\n   ->Burial and cremation grounds (on roads 9m+ wide).\n   ->Agricultural, horticultural, and allied uses (excluding agro-based industries).\n   ->Raisin production, bookbinding.\n   ->Public conveniences.\n   ->Research, experimental, and testing laboratories (non-hazardous).\n\n\n\n\n\n\n");
+        jTextArea2.setText("Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- \ni Any residences, Slum Improvement / Rehabilitation. \nii Hostels for students / working men/ women, lodging with or without boarding facilities.\niii Old age home, sanatorium, orphanage, night shelter dormitories.  \niv Customary Home Occupations (without hired labor, max 1 H.P. power)\n    ->Stitching, embroidery, beauty parlors, button making, etc.\nv Medical Facilities\n    ->Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).\n    ->Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor's residence is above.\nvi Professional Offices for personal use, max carpet area of 50 sq.m.\nvii Community & Recreational Facilities\n    ->Community halls, gymnasiums (max 100 sq.m.).\n    ->Clubhouses/gymkhanas in residential complexes.\nviii Educational Institutions\n    ->Primary and nursery schools, students' hostels (excluding trade schools).\n    ->Crèche, daycare center (max 100 sq.m.).\n    ->Private coaching classes, student mess (max 100 sq.m.) with separate parking. \nix Religious & Cultural Institutions\n   ->Religious buildings.\n   ->Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).\nx Public Amenities & Infrastructure\n   ->Parks, gardens, playfields (non-commercial).\n   ->Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.\n   ->Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,\n        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.\nxi Commercial & Industrial Uses\n   ->Convenience shops (only on the ground floor).\n   ->Electronic assembly (not manufacturing), max 1 H.P. power.\n   ->IT establishments (software only) on roads with a width of 9m+.\n   ->Flour mills, wet/dry masala grinding (max 10 H.P. power).\nxii Other Uses\n   ->Burial and cremation grounds (on roads 9m+ wide).\n   ->Agricultural, horticultural, and allied uses (excluding agro-based industries).\n   ->Raisin production, bookbinding.\n   ->Public conveniences.\n   ->Research, experimental, and testing laboratories (non-hazardous).");
         jScrollPane3.setViewportView(jTextArea2);
+
+        jLabel3.setText("Which Residential Zone is your land in?");
+
+        jRadioButton1.setText("Width of Road less than 9.0 m (Congested Area) & 12.0 m. (Non-congested Area)");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton1ActionPerformed(evt);
+            }
+        });
+
+        jRadioButton2.setText("Width of Road more than or equal to 9.0 m (Congested Area) & 12.0 m. (Non-congested Area)");
+        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton2ActionPerformed(evt);
+            }
+        });
+
+        jLabel5.setText("You Land is in ");
+
+        jTextArea3.setBackground(new java.awt.Color(242, 242, 242));
+        jTextArea3.setColumns(20);
+        jTextArea3.setRows(5);
+        jTextArea3.setText("Uses Permitted in the Zone\nAll uses permitted in R-1 are allowed in R-2 without area restrictions. \nMixed uses may be permitted except those under Regulations 4.8(ii), 4.11(viii, xviii, xxi, xxii, xxxi, xxxvii), and 4.21. \nAll uses in the Public Semi-Public Zone are also allowed.\n\nUses Permitted in Independent Premises/Buildings\nVehicle Fuel Stations (including LPG, CNG, Ethanol, Electric Charging) – as per Regulations 4.11(vi)(c, d, e) & 6.2.2, \nTable 6-E. Trade or Technical Schools\nLPG Godowns, Bulk Kerosene Storage & Sale (subject to NOC from Chief Controller of Explosives).\nService Industries (subject to power limit ≤10 HP, employment ≤9 persons, and floor area ≤100 sq.m).\nList of Permitted Service Industries:\ni) Food Products: Dairy processing, rice hullers, grain mills, masala grinding, bakery, coffee roasting, \nice manufacturing, sugarcane crushing.\nii) Beverages & Tobacco: Bidi manufacturing (also allowed in R-1).\niii) Textile & Garments: Handloom (max 4 looms), embroidery, textile garments, mosquito nets, mattresses.\niv) Wood Products: Wooden furniture manufacturing.\nv) Paper & Printing: Cartons, bookbinding (permitted in R-1), newspaper publishing.\nvi) Leather: Footwear & leather repair.\nvii) Rubber & Plastic: Tire retreading, balloon & glove manufacturing.\nviii) Metal: Grills, gates, doors, water tanks, tool sharpening.\nix) Electrical Goods: Repairs of appliances like TVs, refrigerators, washing machines, air conditioners, motor rewinding.\nx) Transport Equipment: Manufacturing of carts, servicing/repair of bicycles, motorcycles, and vehicles, battery charging.\nxi) Miscellaneous: Jewelry making, watch repair, musical instrument repair, lock/stove repairs, laundries, photo \nprocessing, optical glass grinding, EV charging stations, stone crushing/polishing, concrete manufacturing.\n\nService Industries Without Restrictions\ni) Food Processing: Canning, preservation, jam, jelly, meat, and fish processing.\nii) Printing & Publishing: Books, journals, maps, postcards, embossing.");
+        jScrollPane4.setViewportView(jTextArea3);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(241, 241, 241)
-                .addComponent(jLabel4)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(jScrollPane3)
-                .addContainerGap())
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jRadioButton1)
+                            .addComponent(jRadioButton2)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(186, 186, 186)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel4))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(190, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel4)
+                .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        jLabel6.setText("LOW DENSITY RESIDENTIAL ZONE");
+
+        jLabel7.setText(" In this zone, all uses permissible in Residential Zone shall be permitted subject to FSI restrictions mentioned in these regulations. ");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -292,9 +353,16 @@ public class Page12 extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(14, 14, 14)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
-                            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jScrollPane2)
+                                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jLabel6))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel7)))
                 .addContainerGap(120, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -306,7 +374,11 @@ public class Page12 extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addContainerGap(76, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel2);
@@ -338,8 +410,8 @@ public class Page12 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 298, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 534, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
@@ -350,19 +422,19 @@ public class Page12 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        Page11 p11=new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        Page11 p11 = new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
         p11.setVisible(true);
         p11.pack();
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Page11 p11=new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        Page11 p11 = new Page11(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
         p11.setVisible(true);
         p11.pack();
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
-public void headingPanelActivation() {
+    public void headingPanelActivation() {
         //setting visibility
         ctsl.setVisible(false);
         cts1.setVisible(false);
@@ -398,17 +470,41 @@ public void headingPanelActivation() {
         larea.setText(String.valueOf(lowest));
         taluka1.setText(taluka);
         village1.setText(village);
+        
+        ButtonGroup bg1=new ButtonGroup();
+        bg1.add(jRadioButton1);
+        bg1.add(jRadioButton2);
 
     }
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         headingPanelActivation();
+       jScrollPane3.setVisible(false);
+       jScrollPane4.setVisible(false);
         JScrollBar verticalScrollBar = jScrollPane2.getVerticalScrollBar();
         verticalScrollBar.setValue(0);
-        
+
         JScrollBar verticalScrollBar1 = jScrollPane3.getVerticalScrollBar();
         verticalScrollBar1.setValue(0);
+        
+        JScrollBar verticalScrollBar2=jScrollPane4.getVerticalScrollBar();
+        verticalScrollBar2.setValue(0);
+
+        jLabel4.setText("");
 
     }//GEN-LAST:event_formWindowActivated
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        jLabel4.setText("Residential Zone -R1");
+        jScrollPane3.setVisible(true);
+        jScrollPane4.setVisible(false);
+
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+        jLabel4.setText("Residential Zone -R2");
+        jScrollPane4.setVisible(true);
+        jScrollPane3.setVisible(false);
+    }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -456,15 +552,23 @@ public void headingPanelActivation() {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;

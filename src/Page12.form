@@ -57,8 +57,8 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="298" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="534" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -264,10 +264,20 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jScrollPane2" pref="666" max="32767" attributes="0"/>
-                                  <Component id="jPanel3" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jScrollPane2" max="32767" attributes="0"/>
+                                      <Component id="jPanel3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="120" max="32767" attributes="0"/>
@@ -283,7 +293,11 @@
                       <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="60" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="76" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -325,13 +339,31 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="jScrollPane3" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane4" min="-2" pref="670" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane3" min="-2" pref="644" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="190" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -339,10 +371,21 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -357,6 +400,9 @@
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <Properties>
+                    <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+                  </Properties>
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                   </AuxValues>
@@ -370,13 +416,68 @@
                         </Property>
                         <Property name="columns" type="int" value="20"/>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- &#xa;i Any residences, Slum Improvement / Rehabilitation. &#xa;ii Hostels for students / working men/ women, lodging with or without boarding facilities.&#xa;iii Old age home, sanatorium, orphanage, night shelter dormitories.  &#xa;iv Customary Home Occupations (without hired labor, max 1 H.P. power)&#xa;    -&gt;Stitching, embroidery, beauty parlors, button making, etc.&#xa;v Medical Facilities&#xa;    -&gt;Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).&#xa;    -&gt;Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor&apos;s residence is above.&#xa;vi Professional Offices for personal use, max carpet area of 50 sq.m.&#xa;vii Community &amp; Recreational Facilities&#xa;    -&gt;Community halls, gymnasiums (max 100 sq.m.).&#xa;    -&gt;Clubhouses/gymkhanas in residential complexes.&#xa;viii Educational Institutions&#xa;    -&gt;Primary and nursery schools, students&apos; hostels (excluding trade schools).&#xa;    -&gt;Cr&#xe8;che, daycare center (max 100 sq.m.).&#xa;    -&gt;Private coaching classes, student mess (max 100 sq.m.) with separate parking. &#xa;ix Religious &amp; Cultural Institutions&#xa;   -&gt;Religious buildings.&#xa;   -&gt;Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).&#xa;x Public Amenities &amp; Infrastructure&#xa;   -&gt;Parks, gardens, playfields (non-commercial).&#xa;   -&gt;Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.&#xa;   -&gt;Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,&#xa;        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.&#xa;xi Commercial &amp; Industrial Uses&#xa;   -&gt;Convenience shops (only on the ground floor).&#xa;   -&gt;Electronic assembly (not manufacturing), max 1 H.P. power.&#xa;   -&gt;IT establishments (software only) on roads with a width of 9m+.&#xa;   -&gt;Flour mills, wet/dry masala grinding (max 10 H.P. power).&#xa;xii Other Uses&#xa;   -&gt;Burial and cremation grounds (on roads 9m+ wide).&#xa;   -&gt;Agricultural, horticultural, and allied uses (excluding agro-based industries).&#xa;   -&gt;Raisin production, bookbinding.&#xa;   -&gt;Public conveniences.&#xa;   -&gt;Research, experimental, and testing laboratories (non-hazardous).&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;"/>
+                        <Property name="text" type="java.lang.String" value="Principal shall be permitted in buildings or premises in purely Residential Zone, subject to other regulations:- &#xa;i Any residences, Slum Improvement / Rehabilitation. &#xa;ii Hostels for students / working men/ women, lodging with or without boarding facilities.&#xa;iii Old age home, sanatorium, orphanage, night shelter dormitories.  &#xa;iv Customary Home Occupations (without hired labor, max 1 H.P. power)&#xa;    -&gt;Stitching, embroidery, beauty parlors, button making, etc.&#xa;v Medical Facilities&#xa;    -&gt;Medical and dental dispensaries, diagnostic clinics, polyclinics, counseling centers (on any floor).&#xa;    -&gt;Maternity homes, nursing homes (max 20 beds) with separate access unless the doctor&apos;s residence is above.&#xa;vi Professional Offices for personal use, max carpet area of 50 sq.m.&#xa;vii Community &amp; Recreational Facilities&#xa;    -&gt;Community halls, gymnasiums (max 100 sq.m.).&#xa;    -&gt;Clubhouses/gymkhanas in residential complexes.&#xa;viii Educational Institutions&#xa;    -&gt;Primary and nursery schools, students&apos; hostels (excluding trade schools).&#xa;    -&gt;Cr&#xe8;che, daycare center (max 100 sq.m.).&#xa;    -&gt;Private coaching classes, student mess (max 100 sq.m.) with separate parking. &#xa;ix Religious &amp; Cultural Institutions&#xa;   -&gt;Religious buildings.&#xa;   -&gt;Public/city libraries, museums (in independent buildings or ground/first floor of composite buildings).&#xa;x Public Amenities &amp; Infrastructure&#xa;   -&gt;Parks, gardens, playfields (non-commercial).&#xa;   -&gt;Bus shelters, taxi/rickshaw stands, metro/BRT stations, cycle stands, etc.&#xa;   -&gt;Police stations, government/municipal offices, post offices, banks with vaults, electric substations, fire aid posts,&#xa;        home guards, civil defense centers, essential public utilities, pumping stations, and water installations.&#xa;xi Commercial &amp; Industrial Uses&#xa;   -&gt;Convenience shops (only on the ground floor).&#xa;   -&gt;Electronic assembly (not manufacturing), max 1 H.P. power.&#xa;   -&gt;IT establishments (software only) on roads with a width of 9m+.&#xa;   -&gt;Flour mills, wet/dry masala grinding (max 10 H.P. power).&#xa;xii Other Uses&#xa;   -&gt;Burial and cremation grounds (on roads 9m+ wide).&#xa;   -&gt;Agricultural, horticultural, and allied uses (excluding agro-based industries).&#xa;   -&gt;Raisin production, bookbinding.&#xa;   -&gt;Public conveniences.&#xa;   -&gt;Research, experimental, and testing laboratories (non-hazardous)."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Which Residential Zone is your land in?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Width of Road less than 9.0 m (Congested Area) &amp; 12.0 m. (Non-congested Area)"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Width of Road more than or equal to 9.0 m (Congested Area) &amp; 12.0 m. (Non-congested Area)"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="You Land is in "/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                        </Property>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="Uses Permitted in the Zone&#xa;All uses permitted in R-1 are allowed in R-2 without area restrictions. &#xa;Mixed uses may be permitted except those under Regulations 4.8(ii), 4.11(viii, xviii, xxi, xxii, xxxi, xxxvii), and 4.21. &#xa;All uses in the Public Semi-Public Zone are also allowed.&#xa;&#xa;Uses Permitted in Independent Premises/Buildings&#xa;Vehicle Fuel Stations (including LPG, CNG, Ethanol, Electric Charging) &#x2013; as per Regulations 4.11(vi)(c, d, e) &amp; 6.2.2, &#xa;Table 6-E. Trade or Technical Schools&#xa;LPG Godowns, Bulk Kerosene Storage &amp; Sale (subject to NOC from Chief Controller of Explosives).&#xa;Service Industries (subject to power limit &#x2264;10 HP, employment &#x2264;9 persons, and floor area &#x2264;100 sq.m).&#xa;List of Permitted Service Industries:&#xa;i) Food Products: Dairy processing, rice hullers, grain mills, masala grinding, bakery, coffee roasting, &#xa;ice manufacturing, sugarcane crushing.&#xa;ii) Beverages &amp; Tobacco: Bidi manufacturing (also allowed in R-1).&#xa;iii) Textile &amp; Garments: Handloom (max 4 looms), embroidery, textile garments, mosquito nets, mattresses.&#xa;iv) Wood Products: Wooden furniture manufacturing.&#xa;v) Paper &amp; Printing: Cartons, bookbinding (permitted in R-1), newspaper publishing.&#xa;vi) Leather: Footwear &amp; leather repair.&#xa;vii) Rubber &amp; Plastic: Tire retreading, balloon &amp; glove manufacturing.&#xa;viii) Metal: Grills, gates, doors, water tanks, tool sharpening.&#xa;ix) Electrical Goods: Repairs of appliances like TVs, refrigerators, washing machines, air conditioners, motor rewinding.&#xa;x) Transport Equipment: Manufacturing of carts, servicing/repair of bicycles, motorcycles, and vehicles, battery charging.&#xa;xi) Miscellaneous: Jewelry making, watch repair, musical instrument repair, lock/stove repairs, laundries, photo &#xa;processing, optical glass grinding, EV charging stations, stone crushing/polishing, concrete manufacturing.&#xa;&#xa;Service Industries Without Restrictions&#xa;i) Food Processing: Canning, preservation, jam, jelly, meat, and fish processing.&#xa;ii) Printing &amp; Publishing: Books, journals, maps, postcards, embossing."/>
                       </Properties>
                     </Component>
                   </SubComponents>
                 </Container>
               </SubComponents>
             </Container>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LOW DENSITY RESIDENTIAL ZONE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" In this zone, all uses permissible in Residential Zone shall be permitted subject to FSI restrictions mentioned in these regulations. "/>
+              </Properties>
+            </Component>
           </SubComponents>
         </Container>
       </SubComponents>
