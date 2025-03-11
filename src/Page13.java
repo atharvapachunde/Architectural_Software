@@ -65,6 +65,11 @@ public class Page13 extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
@@ -274,6 +279,48 @@ public class Page13 extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+        headingPanelActivation();
+    }//GEN-LAST:event_formWindowActivated
+
+     public void headingPanelActivation() {
+        //setting visibility
+        ctsl.setVisible(false);
+        cts1.setVisible(false);
+        gatnol.setVisible(false);
+        gatno1.setVisible(false);
+        surveyno_l.setVisible(false);
+        survey.setVisible(false);
+        plotno1.setVisible(false);
+        plotnol.setVisible(false);
+
+        if (!surveyno.isEmpty()) {
+            surveyno_l.setVisible(true);
+            survey.setVisible(true);
+            survey.setText(surveyno);
+        }
+        if (!ctsno.isEmpty()) {
+            ctsl.setVisible(true);
+            cts1.setVisible(true);
+            cts1.setText(ctsno);
+        }
+        if (!gatno.isEmpty()) {
+            gatno1.setVisible(true);
+            gatnol.setVisible(true);
+            gatno1.setText(gatno);
+        }
+        if (!plotno.isEmpty()) {
+            plotno1.setVisible(true);
+            plotnol.setVisible(true);
+            plotno1.setText(plotno);
+        }
+
+        //Setting village, lowest area, taluka
+        larea.setText(String.valueOf(lowest));
+        taluka1.setText(taluka);
+        village1.setText(village);
+
+    }
     /**
      * @param args the command line arguments
      */
