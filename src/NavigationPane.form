@@ -8,6 +8,9 @@
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowActivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowActivated"/>
+  </Events>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -28,8 +31,19 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
@@ -50,7 +64,12 @@
                   <Component id="jPanel2" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="jScrollPane1" min="-2" pref="382" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -237,25 +256,26 @@
             <Component class="javax.swing.JList" name="jList1">
               <Properties>
                 <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
-                  <StringArray count="18">
+                  <StringArray count="19">
                     <StringItem index="0" value="Means of Access"/>
                     <StringItem index="1" value="Roads/Streets in Land Sub-Division or Layout"/>
                     <StringItem index="2" value="How to measure length of Internal Roads"/>
                     <StringItem index="3" value="Access from the Highways/Classified Roads "/>
                     <StringItem index="4" value="Intersection of Roads, Acute Angled Junctions "/>
                     <StringItem index="5" value="Recreational Open Space"/>
-                    <StringItem index="6" value="Provision for Amenity Space"/>
-                    <StringItem index="7" value="Provision for Electric Sub-Station"/>
-                    <StringItem index="8" value="Minimum plot area for various uses"/>
-                    <StringItem index="9" value="Provision for Inclusive Housing "/>
-                    <StringItem index="10" value="Transfer of Land under D.P. sites in LIEU of FSI"/>
-                    <StringItem index="11" value="Relocation of D.P./R.P. sites/Roads"/>
-                    <StringItem index="12" value="Amalgamation of Plots"/>
-                    <StringItem index="13" value=" "/>
+                    <StringItem index="6" value="Recreational Open Space for Educational Purpose"/>
+                    <StringItem index="7" value="Provision for Amenity Space"/>
+                    <StringItem index="8" value="Provision for Electric Sub-Station"/>
+                    <StringItem index="9" value="Minimum plot area for various uses"/>
+                    <StringItem index="10" value="Provision for Inclusive Housing "/>
+                    <StringItem index="11" value="Transfer of Land under D.P. sites in LIEU of FSI"/>
+                    <StringItem index="12" value="Relocation of D.P./R.P. sites/Roads"/>
+                    <StringItem index="13" value="Amalgamation of Plots"/>
                     <StringItem index="14" value=" "/>
                     <StringItem index="15" value=" "/>
                     <StringItem index="16" value=" "/>
                     <StringItem index="17" value=" "/>
+                    <StringItem index="18" value=" "/>
                   </StringArray>
                 </Property>
               </Properties>
@@ -291,5 +311,21 @@
         </Container>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;- Previous"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next -&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
   </SubComponents>
 </Form>

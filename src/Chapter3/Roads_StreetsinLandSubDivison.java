@@ -104,7 +104,7 @@ public class Roads_StreetsinLandSubDivison extends javax.swing.JPanel {
                             .addComponent(jRadioButton6)
                             .addComponent(jRadioButton2)))
                     .addComponent(jLabel5))
-                .addContainerGap(82, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 395, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -130,9 +130,8 @@ public class Roads_StreetsinLandSubDivison extends javax.swing.JPanel {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 74;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 6, 33, 6);
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 137, 12);
         add(jPanel2, gridBagConstraints);
     }// </editor-fold>//GEN-END:initComponents
 

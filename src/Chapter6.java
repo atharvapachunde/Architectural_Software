@@ -1,8 +1,9 @@
 
-import Chapter3.*;
-import java.awt.*;
+import Chap6.*;
+import java.awt.BorderLayout;
+import javax.swing.ButtonGroup;
 
-public class NavigationPane extends javax.swing.JFrame {
+public class Chapter6 extends javax.swing.JFrame {
 
     String plotno = "";
     String ctsno = "";
@@ -12,7 +13,7 @@ public class NavigationPane extends javax.swing.JFrame {
     String taluka = "";
     double lowest = 0.0;
 
-    public NavigationPane(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
+    public Chapter6(String surveyno, String gatno, String ctsno, String plotno, String village, String taluka, double lowest) {
         this();
 
         //Panel Code Initialization
@@ -23,10 +24,15 @@ public class NavigationPane extends javax.swing.JFrame {
         this.village = village;
         this.taluka = taluka;
         this.lowest = lowest;
+
+       
     }
 
-    public NavigationPane() {
+    public Chapter6() {
         initComponents();
+         ButtonGroup bg = new ButtonGroup();
+        bg.add(jRadioButton2);
+        bg.add(jRadioButton3);
     }
 
     @SuppressWarnings("unchecked")
@@ -50,11 +56,12 @@ public class NavigationPane extends javax.swing.JFrame {
         plotnol = new javax.swing.JLabel();
         plotno1 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jPanel3 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jLabel2 = new javax.swing.JLabel();
+        jRadioButton1 = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
@@ -217,34 +224,41 @@ public class NavigationPane extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(14, 31, 0, 6);
         jPanel1.add(jLabel1, gridBagConstraints);
 
-        jPanel2.setLayout(new java.awt.CardLayout());
-
-        jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Means of Access", "Roads/Streets in Land Sub-Division or Layout", "How to measure length of Internal Roads", "Access from the Highways/Classified Roads ", "Intersection of Roads, Acute Angled Junctions ", "Recreational Open Space", "Recreational Open Space for Educational Purpose", "Provision for Amenity Space", "Provision for Electric Sub-Station", "Minimum plot area for various uses", "Provision for Inclusive Housing ", "Transfer of Land under D.P. sites in LIEU of FSI", "Relocation of D.P./R.P. sites/Roads", "Amalgamation of Plots", " ", " ", " ", " ", " " };
-            public int getSize() { return strings.length; }
-            public String getElementAt(int i) { return strings[i]; }
-        });
-        jList1.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
-            public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
-                jList1ValueChanged(evt);
-            }
-        });
-        jScrollPane2.setViewportView(jList1);
-
-        jPanel2.add(jScrollPane2, "card2");
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 541, Short.MAX_VALUE)
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 397, Short.MAX_VALUE)
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 303, Short.MAX_VALUE)
         );
 
-        jScrollPane1.setViewportView(jPanel3);
+        jScrollPane1.setViewportView(jPanel2);
+
+        jRadioButton2.setText("Upto 15m");
+        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton2ActionPerformed(evt);
+            }
+        });
+
+        jRadioButton3.setText("Above 15 m");
+        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton3ActionPerformed(evt);
+            }
+        });
+
+        jLabel2.setText("Select Height of Building excluding Parking floor upto 6 m ");
+
+        jRadioButton1.setText("Other Buildings");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton1ActionPerformed(evt);
+            }
+        });
 
         jButton1.setText("<- Previous");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -265,140 +279,62 @@ public class NavigationPane extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(106, 106, 106)
-                                .addComponent(jButton1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton2)
-                                .addGap(76, 76, 76))))
+                                .addGap(6, 6, 6)
+                                .addComponent(jRadioButton2)
+                                .addGap(6, 6, 6)
+                                .addComponent(jRadioButton3)
+                                .addGap(6, 6, 6)
+                                .addComponent(jRadioButton1))
+                            .addComponent(jLabel2))
+                        .addGap(6, 6, 6)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(246, 246, 246)
+                        .addComponent(jButton1)
+                        .addGap(71, 71, 71)
+                        .addComponent(jButton2)))
+                .addGap(6, 6, 6))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(6, 6, 6)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 382, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton1)
-                            .addComponent(jButton2))
-                        .addGap(0, 7, Short.MAX_VALUE)))
-                .addContainerGap())
+                            .addComponent(jButton2)
+                            .addComponent(jButton1)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(6, 6, 6)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jRadioButton2)
+                            .addComponent(jRadioButton3)
+                            .addComponent(jRadioButton1))
+                        .addContainerGap())))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jList1ValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_jList1ValueChanged
-        int selected = jList1.getSelectedIndex();
-        switch (selected) {
-            case 0 -> {
-                MeansofAccess panel = new MeansofAccess();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 1 -> {
-                Roads_StreetsinLandSubDivison panel1 = new Roads_StreetsinLandSubDivison();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel1, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 2 -> {
-                LengthofInternalRoads panel2 = new LengthofInternalRoads();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel2, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 3 -> {
-                AccessfromHighways panel3 = new AccessfromHighways();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel3, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 5 -> {
-                RecreationOpenSpace panel4 = new RecreationOpenSpace(lowest);
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel4, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 6 -> {
-                EducationalPurposeOpenSpace panel5=new EducationalPurposeOpenSpace(lowest);
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel5, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 7 -> {
-                AmenitySpace panel6=new AmenitySpace(lowest);
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel6, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 8 ->{
-                ElectricSubStation panel7=new ElectricSubStation();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel7, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 9 ->{
-                MinimumPlotArea panel8 = new MinimumPlotArea();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel8, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 10 -> {
-                InclusiveHousing panel9=new InclusiveHousing();
-                jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel9, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-            case 11,12,13 ->{
-                Last4Panels panel10=new Last4Panels();
-                 jPanel3.removeAll();
-                jPanel3.setLayout(new java.awt.BorderLayout());
-                jPanel3.add(panel10, BorderLayout.CENTER);
-                jPanel3.revalidate();
-                jPanel3.repaint();
-            }
-                
-        }
-    }//GEN-LAST:event_jList1ValueChanged
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+        HeigthUpto15m panel1 = new HeigthUpto15m(lowest);
+        jPanel2.removeAll();
+        jPanel2.setLayout(new java.awt.BorderLayout());
+        jPanel2.add(panel1, BorderLayout.CENTER);
+        jPanel2.revalidate();
+        jPanel2.repaint();
+    }//GEN-LAST:event_jRadioButton2ActionPerformed
     public void headingPanelActivation() {
         //setting visibility
         ctsl.setVisible(false);
@@ -441,19 +377,37 @@ public class NavigationPane extends javax.swing.JFrame {
         headingPanelActivation();
     }//GEN-LAST:event_formWindowActivated
 
+    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
+        HeightAbove15m panel1 = new HeightAbove15m();
+        jPanel2.removeAll();
+        jPanel2.setLayout(new java.awt.BorderLayout());
+        jPanel2.add(panel1, BorderLayout.CENTER);
+        jPanel2.revalidate();
+        jPanel2.repaint();
+    }//GEN-LAST:event_jRadioButton3ActionPerformed
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        OtherBuildings panel2=new OtherBuildings();
+        jPanel2.removeAll();
+        jPanel2.setLayout(new java.awt.BorderLayout());
+        jPanel2.add(panel2, BorderLayout.CENTER);
+        jPanel2.revalidate();
+        jPanel2.repaint();
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        NavigationPane np=new NavigationPane(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
+        np.setVisible(true);
+        np.pack();
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         Chapter6 c6=new Chapter6(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
         c6.setVisible(true);
         c6.pack();
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        ThirdPage tp = new ThirdPage(surveyno, gatno, ctsno, plotno, village, taluka, lowest);
-        tp.setVisible(true);
-        tp.pack();
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -472,20 +426,20 @@ public class NavigationPane extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(NavigationPane.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Chapter6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(NavigationPane.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Chapter6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(NavigationPane.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Chapter6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(NavigationPane.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Chapter6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new NavigationPane().setVisible(true);
+                new Chapter6().setVisible(true);
             }
         });
     }
@@ -500,12 +454,13 @@ public class NavigationPane extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JList<String> jList1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel larea;
     private javax.swing.JLabel plotno1;
     private javax.swing.JLabel plotnol;
@@ -515,5 +470,4 @@ public class NavigationPane extends javax.swing.JFrame {
     private javax.swing.JLabel village1;
     private javax.swing.JLabel village_l;
     // End of variables declaration//GEN-END:variables
-
 }
