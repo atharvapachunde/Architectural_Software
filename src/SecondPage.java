@@ -116,13 +116,11 @@ public class SecondPage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowActivated(java.awt.event.WindowEvent evt) {
                 formWindowActivated(evt);
             }
         });
-        getContentPane().setLayout(new java.awt.GridBagLayout());
 
         jLabel3.setText("Is the land sanitary?");
 
@@ -290,26 +288,12 @@ public class SecondPage extends javax.swing.JFrame {
                 .addComponent(jRadioButton11))
         );
 
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 158, 0, 0);
-        getContentPane().add(jPanel2, gridBagConstraints);
-
         jButton1.setText("Check Eligibility");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(12, 0, 27, 0);
-        getContentPane().add(jButton1, gridBagConstraints);
 
         jButton2.setText("NEXT ->");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -317,29 +301,10 @@ public class SecondPage extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(12, 18, 27, 0);
-        getContentPane().add(jButton2, gridBagConstraints);
 
         jButton3.setText("<- PREVIOUS");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(12, 220, 27, 0);
-        getContentPane().add(jButton3, gridBagConstraints);
 
         jLabel8.setText("jLabel8");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 302, 0, 0);
-        getContentPane().add(jLabel8, gridBagConstraints);
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
@@ -485,21 +450,53 @@ public class SecondPage extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Corbel", 1, 24)); // NOI18N
         jLabel1.setText("Pandit Joshi & Associates");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 11;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridheight = 7;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(14, 31, 0, 6);
-        jPanel1.add(jLabel1, gridBagConstraints);
 
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 6, 0, 6);
-        getContentPane().add(jPanel1, gridBagConstraints);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel1))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(284, 284, 284)
+                        .addComponent(jLabel8)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(110, 110, 110))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jButton3)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton2)
+                        .addGap(159, 159, 159))))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1))
+                .addGap(6, 6, 6)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(6, 6, 6)
+                .addComponent(jLabel8)
+                .addGap(12, 12, 12)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton3)
+                    .addComponent(jButton1)
+                    .addComponent(jButton2)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -545,28 +542,33 @@ public class SecondPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jRadioButton10ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        String errormessage="";
         if (jRadioButton2.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Land not sanitary!", "Land Not Eligible: ", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, "Land not sanitary!", "Land Not Eligible: ", JOptionPane.ERROR_MESSAGE);
+            errormessage=errormessage+"Land not sanitary\n";
             next = false;
             jLabel8.setText("Land not eligible for construction!");
         }
         if (jRadioButton4.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Land not well drained!", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, "", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            errormessage=errormessage+"Land not well drained!\n";
             next = false;
             jLabel8.setText("Land not eligible for construction!");
         }
         if (jRadioButton6.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Land close to very minor water course!", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, "", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            errormessage=errormessage+"Land close to very minor water course!\n";
             next = false;
             jLabel8.setText("Land not eligible for construction!");
         }
         if (jRadioButton8.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Land close to very major water course!", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, "", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            errormessage=errormessage+"Land close to very major water course!\n";
             next = false;
             jLabel8.setText("Land not eligible for construction!");
         }
         if (jRadioButton10.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Land Hill Gradient more than 1:5!", "Land Not Eligible", JOptionPane.ERROR_MESSAGE);
+            errormessage=errormessage+"Land hill gradient more than 1:5\n";
             next = false;
             jLabel8.setText("Land not eligible for construction!");
         }
@@ -574,6 +576,11 @@ public class SecondPage extends javax.swing.JFrame {
             jLabel8.setText("Land Eligible for construction!");
             next = true;
         }
+        if(next==false)
+        {
+          JOptionPane.showMessageDialog(null, errormessage, "Land Not Eligible", JOptionPane.ERROR_MESSAGE);   
+        }
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
